@@ -231,6 +231,14 @@ input[type=submit]{
   font-family: 'Courier New';
   margin-top: 10px;
 }
+.currently-playing{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  grid-column-gap: 15px;
+  overflow: hidden;
+}
 @font-face {
   font-family: icons;
   src: url(Icons.otf);
