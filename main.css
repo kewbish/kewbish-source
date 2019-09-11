@@ -38,14 +38,12 @@ section:nth-child(2n+2) {
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
 }
-a:nth-of-type(odd) {
-  color: #00ffff;
-}
-a:nth-of-type(even){
-  color: #ff0000;
+a{
+  color: #a5a5a5;
 }
 a:hover {
-  border-bottom: 3px solid #5a5a5a;
+  color: #5a5a5a;
+  border-bottom: 2px solid #5a5a5a;
 }
 ul {
   padding-left: 20px;
@@ -128,9 +126,6 @@ button:hover{
   line-height: 1.25;
   font-size: 24px;
 }
-.experience a:hover {
-  color: #1e1e1e;
-}
 .experience .details {
   float: left;
   width: 30%;
@@ -205,6 +200,9 @@ footer {
   font-size: 18px;
   margin: 8px;
 }
+.chill:hover{
+  border-bottom: none;
+}
 .custom-div{
   border-bottom: 1px solid white;
 }
@@ -229,10 +227,14 @@ input[type=submit]{
   margin-top: 10px;
 }
 #currently-playing{
-  column-count: 2;
-  column-rule: 1px solid transparent;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 65%;
 }
-
+#currently-playing-text{
+  margin: 0;
+  padding-left: 10px;
+}
 @font-face {
   font-family: icons;
   src: url(Icons.otf);
