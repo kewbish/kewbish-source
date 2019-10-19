@@ -226,15 +226,6 @@ input[type=submit]{
   font-family: 'Courier New';
   margin-top: 10px;
 }
-#currently-playing{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 35% 65%;
-}
-#currently-playing-text{
-  margin: 0;
-  padding-left: 10px;
-}
 @font-face {
   font-family: icons;
   src: url(Icons.otf);
