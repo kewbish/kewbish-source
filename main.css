@@ -98,19 +98,10 @@ header div{
   border-bottom: none;
   margin-bottom: 0;
 }
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #252525;
-    color: white;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-visibility: visible;
+.skills-divs{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
 }
 .call-to-action{
   text-align: center;
