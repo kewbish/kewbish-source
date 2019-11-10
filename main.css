@@ -99,9 +99,9 @@ header div{
   margin-bottom: 0;
 }
 .skills-divs{
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 8%;
 }
 .call-to-action{
   text-align: center;
@@ -179,28 +179,6 @@ footer {
 .padding{
   padding: 50px 90px;
 }
-.grid-gallery{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-.card-container{
-  border-radius: 20px;
-  padding: 15px;
-}
-.card-container:nth-child(odd){
-  border: #ff0000 3px solid;
-}
-.card-container:nth-child(even){
-  border: #00ffff 3px solid;
-}
-.card-container h1{
-  margin-bottom: 5px;
-}
-.card-container a{
-  margin-bottom: 5px;
-  color: #a5a5a5;
-}
 .tiny{
   font-size: 18px;
   margin: 8px;
@@ -266,6 +244,9 @@ input[type=submit]{
 .grid-gallery{
   grid-template-columns: repeat(2, 1fr);
 }
+.skills-divs{
+    grid-template-columns: 1fr 1fr;
+}
 }
 @media (max-width: 600px) {
 header {
@@ -292,6 +273,9 @@ section h1 {
 }
 .grid-gallery{
   grid-template-columns: 1fr;
+}
+.skills-divs{
+    grid-template-columns: 1fr;
 }
 }
 ::selection{
