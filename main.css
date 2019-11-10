@@ -197,6 +197,7 @@ input[type=text], textarea{
   padding-right: 20px;
   color: white;
   margin: 10px;
+  margin-left: 0px;
 }
 textarea{
   padding: 50px;
@@ -208,6 +209,7 @@ input[type=submit]{
   color: white;
   font-family: 'Courier New';
   margin-top: 10px;
+  padding: 10px 20px;
 }
 @font-face {
   font-family: icons;
