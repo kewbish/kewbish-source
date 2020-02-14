@@ -14,6 +14,7 @@ It features :
 Normally, I'd have a `How It Works` section here, but it's simple HTML that I hope anyone can understand. So, here's a bunch of my contacts and other website-related informations.  
 Email : `kewbish@gmail.com` 
 Discord : `kewbish#2255`   
+LinkedIn: [/in/kewbish](https://www.linkedin.com/in/kewbish/)  
 TL;DR : Hire me. [PayPal me here.](https://paypal.me/KEWB1SH). Feed my Steam Wallet. :) 
 
 Happy coding! 👋  
