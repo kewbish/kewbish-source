@@ -218,6 +218,9 @@ input[type=submit]{
   margin-top: 10px;
   padding: 10px 20px;
 }
+input{
+    color: white;
+}
 @font-face {
   font-family: icons;
   src: url(Icons.otf);
