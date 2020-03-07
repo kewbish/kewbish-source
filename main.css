@@ -1,6 +1,9 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'Courier New', serif;
   font-size: 20px;
@@ -220,6 +223,28 @@ input[type=submit]{
 }
 input{
     color: white;
+}
+.scroll-indicator{
+    animation: blink 2s infinite ease-in-out;
+    font-size: 4em;
+    text-decoration: none;
+    box-sizing: content-box;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+}
+@keyframes blink {
+    0% {color: #5a5a5a;
+        transform: translateY(0px);
+    }
+    50% {color: #a5a5a5;
+        transform: translateY(-20px);
+    }
+    100% {color: #5a5a5a;
+        transform: translateY(0px);
+    }
 }
 @font-face {
   font-family: icons;
