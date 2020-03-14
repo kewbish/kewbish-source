@@ -10,8 +10,8 @@ body {
   line-height: 1.5;
   background: 
     linear-gradient(#1e1e1e5d, #1e1e1e5d),
-    url(files/Background.png) no-repeat fixed 60%;
-  background-size: cover;
+    url(files/Background.svg) repeat fixed 10%;
+  background-size: 200px;
   padding: 0;
   margin: 0;
 }
@@ -94,6 +94,7 @@ header div{
 .profile-image {
   float: left;
   width: 27%;
+  height: 27%;
   margin-right: 3%;
   padding: 4px;
   border: 3px solid white;
