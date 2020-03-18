@@ -165,9 +165,6 @@ button:hover{
 .education h2 {
   text-transform: uppercase;
 }
-.education h3 {
-  color: #1e1e1e;
-}
 .contact {
   background: #1e1e1e;
 }
@@ -182,17 +179,6 @@ footer {
 .copyright{
   font-size: 18px;
   margin: 0;
-}
-#longboi {
-  margin-top: 5px;
-  filter: greyscale(100%);
-}
-.padding{
-  padding: 50px 90px;
-}
-.tiny{
-  font-size: 18px;
-  margin: 8px;
 }
 .chill:hover{
   border-bottom: none;
