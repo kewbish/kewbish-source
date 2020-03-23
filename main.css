@@ -105,6 +105,10 @@ header div{
   border-bottom: 1px solid #a5a5a5;
   padding: 20px 0;
 }
+.item-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .item:last-child {
   border-bottom: none;
   margin-bottom: 0;
@@ -186,6 +190,10 @@ footer {
 .custom-div{
   border-bottom: 1px solid white;
 }
+.icons-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 input[type=text], textarea{
   width: 50%;
   background-color: transparent;
@@ -265,9 +273,6 @@ input{
   width: 100%;
   float: none;
 }
-.grid-gallery{
-  grid-template-columns: repeat(2, 1fr);
-}
 .skills-divs{
     grid-template-columns: 1fr 1fr;
 }
@@ -294,9 +299,6 @@ section h1 {
 }
 .profile-wrapper{
   text-align: center;
-}
-.grid-gallery{
-  grid-template-columns: 1fr;
 }
 .skills-divs{
     grid-template-columns: 1fr;
