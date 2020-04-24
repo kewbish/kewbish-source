@@ -9,7 +9,6 @@ body {
   font-size: 20px;
   line-height: 1.5;
   background: 
-    linear-gradient(#1e1e1e5d, #1e1e1e5d),
     url(files/Background.svg) repeat fixed 10%;
   background-size: 200px;
   padding: 0;
