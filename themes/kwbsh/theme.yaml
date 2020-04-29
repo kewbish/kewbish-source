@@ -1,0 +1,9 @@
+name: "Kwbsh"
+license: "MIT"
+description: "A personal theme."
+homepage: "http://kewbish.github.io"
+min_version: "0.41"
+
+[author]
+  name: "Kewbish - Emilie Ma"
+  homepage: "http://kewbish.github.io"
