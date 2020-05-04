@@ -1,23 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --background-color: #1e1e1e;
     --text-color: #ffffff;
     --accent-color: #ffab3d;
     --grid-columns: 1fr 1fr 1fr;
     --width-percent: 80%;
-    --font-one: Consolas, "Courier New", monospace;
+    --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
 }
 body{
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: var(--font-one);
+    font-size: 1.2em;
 }
 h1{
-    font-family: var(--font-two);
+    font-family: var(--font-one);
+}
+p{
+    margin: 0.2%;
+    padding: 0.2%;
 }
 a{
     color: var(--text-color);
-    text-decoration: underline 1px solid var(--accent-color);
+    text-decoration: underline var(--accent-color);
 }
 .hero{
     text-align: center;
@@ -30,6 +39,6 @@ a{
     transform: translateY(-50%);
 }
 .hero-heading{
-    font-size: 8em;
-    margin: 0 auto;
+    font-size: 10vw;
+    margin: -1vw 0;
 }
