@@ -8,6 +8,7 @@
     --text-color: #ffffff;
     --accent-color: #ffab3d;
     --grid-columns: 1fr 1fr 1fr;
+    --width-percent: 80%;
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
 }
@@ -17,15 +18,12 @@ body{
     font-family: var(--font-one);
     font-size: 1.2em;
 }
-section{
-    padding: 8%;
-}
 h1{
     font-family: var(--font-one);
 }
 p{
-    margin: 0.2% 0;
-    padding: 0.2% 0;
+    margin: 0.2%;
+    padding: 0.2%;
 }
 a{
     color: var(--text-color);
@@ -46,18 +44,9 @@ a{
     margin: -1vw 0;
 }
 .header{
-    height: 7.5vh;
+    height: 5vh;
     background: var(--header-color);
-    padding: 0.5% 2%;
-    font-size: 1.5em;
-    margin: 0 auto;
 }
 .header-logo{
-    padding: 0.2% 0;
     float: left;
-}
-.header-links{
-    float: right;
-    width: 50vw;
-    text-align: right;
 }
