@@ -23,19 +23,26 @@ section{
 h1, h2{
     font-family: var(--font-two);
     font-size: 3.5em;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 h2{
     font-size: 2em;
-    padding: 2% 0;
+    padding: 2.5% 0;
 }
 p{
     margin: 0.2% 0;
     padding: 0.2% 0;
 }
+ul{
+    list-style-position: inside;
+}
 a{
     color: var(--text-color);
     text-decoration: underline var(--accent-color);
+}
+a:hover{
+    color: var(--accent-color);
+    transition: 0.3s;
 }
 .hero{
     text-align: center;
@@ -53,22 +60,6 @@ a{
     font-size: 10vw;
     margin: -1vw 0;
     padding: 0;
-}
-.header{
-    height: 7.5vh;
-    background: var(--header-color);
-    padding: 0.5% 2%;
-    font-size: 1.5em;
-    margin: 0 auto;
-}
-.header-logo{
-    padding: 0.2% 0;
-    float: left;
-}
-.header-links{
-    float: right;
-    width: 50vw;
-    text-align: right;
 }
 .grid{
     display: grid;
