@@ -48,6 +48,9 @@ a:hover{
     color: var(--accent-color);
     transition: 0.3s;
 }
+strong{
+    color: var(--accent-color)
+}
 .hero{
     text-align: center;
     margin: 0 auto;
@@ -68,6 +71,7 @@ a:hover{
 .grid{
     display: grid;
     grid-template-columns: var(--grid-columns);
+    grid-row-gap: 1.5em;
 }
 .grid-two{
     display: grid;
