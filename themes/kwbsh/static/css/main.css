@@ -72,8 +72,10 @@ strong{
     display: grid;
     grid-template-columns: var(--grid-columns);
     grid-row-gap: 1.5em;
+    grid-column-gap: 1em;
 }
 .grid-two{
     display: grid;
     grid-template-columns: 7fr 4fr;
+    grid-column-gap: 1em;
 }
