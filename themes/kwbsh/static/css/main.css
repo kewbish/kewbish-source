@@ -10,6 +10,7 @@
     --grid-columns: 1fr 1fr 1fr;
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: var(--background-color);
