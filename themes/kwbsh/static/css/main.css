@@ -36,6 +36,9 @@ p{
 ul{
     list-style-position: inside;
 }
+li{
+    margin: 1% 0;
+}
 a{
     color: var(--text-color);
     text-decoration: underline var(--accent-color);
