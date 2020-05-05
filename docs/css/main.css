@@ -8,7 +8,6 @@
     --text-color: #ffffff;
     --accent-color: #ffab3d;
     --grid-columns: 1fr 1fr 1fr;
-    --width-percent: 80%;
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
 }
@@ -18,12 +17,21 @@ body{
     font-family: var(--font-one);
     font-size: 1.2em;
 }
-h1{
-    font-family: var(--font-one);
+section{
+    padding: 8%;
+}
+h1, h2{
+    font-family: var(--font-two);
+    font-size: 3.5em;
+    padding-bottom: 1%;
+}
+h2{
+    font-size: 2em;
+    padding: 2% 0;
 }
 p{
-    margin: 0.2%;
-    padding: 0.2%;
+    margin: 0.2% 0;
+    padding: 0.2% 0;
 }
 a{
     color: var(--text-color);
@@ -33,20 +41,40 @@ a{
     text-align: center;
     margin: 0 auto;
     height: 90vh;
+    padding: 0;
 }
 .hero div{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    padding: 2%;
 }
 .hero-heading{
     font-size: 10vw;
     margin: -1vw 0;
+    padding: 0;
 }
 .header{
-    height: 5vh;
+    height: 7.5vh;
     background: var(--header-color);
+    padding: 0.5% 2%;
+    font-size: 1.5em;
+    margin: 0 auto;
 }
 .header-logo{
+    padding: 0.2% 0;
     float: left;
+}
+.header-links{
+    float: right;
+    width: 50vw;
+    text-align: right;
+}
+.grid{
+    display: grid;
+    grid-template-columns: var(--grid-columns);
+}
+.grid-two{
+    display: grid;
+    grid-template-columns: 7fr 4fr;
 }
