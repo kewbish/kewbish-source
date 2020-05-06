@@ -16,7 +16,13 @@
         <div id="folio-projects" class="grid">
             {{ range $.Site.Data.projects.Projects }}
                 <div class="grid-element">
-                    <p>{{ . }}</p>
+                    <p><strong>{{ .Title }}</strong></p>
+                    <p>{{ .Description }}</p>
+                    {{ if .Link }}
+                        <p><a href="{{ .Source }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
+                    {{ else }}
+                        <p><a href="{{ .Source }}">Source</a></p>
+                    {{ end }}
                 </div>
             {{ end }}
         </div>
