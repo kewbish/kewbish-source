@@ -1,0 +1,44 @@
+{
+    "Projects": [
+        {
+            "Title": "🌐 This site",
+            "Description": "Handcrafted with Hugo. Combining data-driven content with a blazing-fast framework.",
+            "Github": "https://github.com/kewbish/kewbish.github.io",
+            "Link": "https://kewbish.github.io"
+        },
+        {
+            "Title": "🖋️ Yours, Kewbish",
+            "Description": "My personal blog in the form of an attempted collection of epistolary essays.",
+            "Github": "https://github.com/kewbish/blog",
+            "Link": "https://kewbish.github.io/blog"
+        },
+        {
+            "Title": "🤖 Justin",
+            "Description": "A command-line interface for automating common workflows and development tasks.",
+            "Github": "https://github.com/kewbish/justin"
+        },
+        {
+            "Title": "👩‍🏫 Kenna",
+            "Description": "A non-developer-friendly interface for teachers to create scalable web presences.",
+            "Github": "https://github.com/kewbish/kenna",
+            "Link": "https://kewbish.github.io/kenna/"
+        },
+        {
+            "Title": "🤿 DiveIntoHT.ML",
+            "Description": "An interactive short course designed to teach the foundations of website design.",
+            "Github": "https://github.com/kewbish/diveintohtml",
+            "Link": "https://diveintoht.ml"
+        },
+        {
+            "Title": "🎥 Zoomy",
+            "Description": "A minimalist Zoom utility for the terminal. Super useful during the Age of Zoom.",
+            "Github": "https://github.com/kewbish/zoomy",
+            "Link": "https://pypi.org/project/zoomy/"
+        },
+        {
+            "Title": "📓 Opus",
+            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and report generation.",
+            "Github": "https://github.com/kewbish/opus"
+        }
+    ]
+}
