@@ -7,7 +7,7 @@
     --header-color: #000000;
     --text-color: #ffffff;
     --accent-color: #ffab3d;
-    --grid-columns: 1fr 1fr 1fr;
+    --grid-columns: repeat(3, minmax(100px, 1fr));
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
     scroll-behavior: smooth;
@@ -92,6 +92,7 @@ button{
     grid-template-columns: var(--grid-columns);
     grid-row-gap: 1.5em;
     grid-column-gap: 1em;
+    padding: 1.5% 0;
 }
 .grid-two{
     display: grid;

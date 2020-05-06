@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kewbish // Developer</title>
+    <meta name="description" content="About Kewbish. Excited to build, develop, and create.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="folio">
+        <p><a href="../">&lt; go back</a></p>
+        <h1>See my projects.</h1>
+        <p>Interested in working together? <a href="../me#about-contact">Let's talk</a>.</p>
+        <div id="folio-projects" class="grid">
+            {{ range $.Site.Data.projects.Projects }}
+                <div class="grid-element">
+                    <p>{{ . }}</p>
+                </div>
+            {{ end }}
+        </div>
+        <p><a href="../me/">Learn more about me</a> or <a href="https://kewbish.github.io/blog">read my blog</a>.</p>
+        <p><a href="../">&lt; go back</a></p>
+    </section>
+</body>
