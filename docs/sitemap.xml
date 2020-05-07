@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/folio/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/me/</loc>
     <priority>0</priority>
   </url>

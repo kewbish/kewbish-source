@@ -2,7 +2,7 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Combining data-driven content with a blazing-fast framework.",
+            "Description": "Handcrafted with Hugo. Combining data-driven content with blazing speed.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
             "Link": "https://kewbish.github.io"
         },
@@ -25,7 +25,7 @@
         },
         {
             "Title": "🤿 DiveIntoHT.ML",
-            "Description": "An interactive short course designed to teach the foundations of website design.",
+            "Description": "An interactive short course designed to teach the basics of web design.",
             "Github": "https://github.com/kewbish/diveintohtml",
             "Link": "https://diveintoht.ml"
         },
