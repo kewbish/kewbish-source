@@ -115,6 +115,37 @@ button{
 .grid-element:nth-last-child(1):nth-child(odd){
     grid-column: 1 / span 3;
 }
+.vtabs{
+    display: block;
+    position: relative;
+}
+.vtabs input[name="tabs"]{
+    left: -9999px;
+    top: -9999px;
+    position: absolute;
+}
+.vtabs .tab{
+    display: block;
+}
+.vtabs .tab label{
+    background-color: var(--accent-two);
+    border: var(--text-color);
+    cursor: pointer;
+    display: block;
+    padding: 1%;
+    position: relative;
+    width: 40%;
+}
+.vtabs .tab .tab-c{
+    display: none;
+    position: relative;
+}
+.vtabs .tab .tab-c:after{
+    display: block;
+}
+.vtabs input[name="tabs"]:checked ~ .tab-c{
+    display: block;
+}
 @media all and (min-width: 568px) and (max-width: 768px) {
     :root{
         --grid-columns: 1fr 1fr;
