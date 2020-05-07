@@ -6,11 +6,13 @@
     --background-color: #1e1e1e;
     --header-color: #000000;
     --text-color: #ffffff;
-    --accent-color: #ffab3d;
+    --accent-color: #ffb451;
+    --accent-two: #323232;
     --grid-columns: minmax(100px, 2fr) minmax(100px, 1fr) minmax(100px, 2fr);
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 body{
     background-color: var(--background-color);
@@ -43,6 +45,7 @@ li{
 a{
     color: var(--text-color);
     text-decoration: underline var(--accent-color);
+    -webkit-text-decoration: underline var(--accent-color)
 }
 a:hover{
     color: var(--accent-color);
@@ -100,8 +103,7 @@ button{
     grid-column-gap: 1em;
 }
 .grid-element{
-    border-radius: 10px;
-    border: 2px solid var(--text-color);
+    background-color: var(--accent-two);
     padding: 2% 3.5%;
 }
 .grid-element:nth-child(4n+2){
