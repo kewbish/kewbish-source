@@ -37,7 +37,7 @@
         },
         {
             "Title": "📓 Opus",
-            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and report generation.",
+            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and email report generation.",
             "Github": "https://github.com/kewbish/opus"
         }
     ]
