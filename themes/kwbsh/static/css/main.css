@@ -115,48 +115,44 @@ button{
 .grid-element:nth-last-child(1):nth-child(odd){
     grid-column: 1 / span 3;
 }
-#tabs{
+.tabs{
+    min-height: 250px;
     position: relative;
     width: 100%;
 }
-#tab-links{
-    list-style: none;
-    overflow: hidden;
-}
-#tab-links li{
+.tabs > div {
     display: inline;
 }
-#tab-links li a{
-    padding: 1% 2%;
-    background: var(--accent-two);
-    border: 3px solid var(--background-color);
+.tabs > div > a {
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    text-decoration: none;
+    background: var(--background-color);
+    display: block;
     float: left;
-    display: block;
-    position: relative;
+    padding: 5px 10px;
+    border: 1px solid var(--background-color)
 }
-#tab-links li a:hover{
-    background-color: var(--background-color);
+.tabs > div:not(:target) > a {
+    border-bottom: 0;
+    background-color: var(--accent-two);
 }
-#tabs-container{
-    height: 25vh;
-    background: var(--accent-two);
-    overflow: hidden;
-    padding: 2% 3.5%;
-    position: relative;
+.tabs > div > div{
+    background-color: var(--accent-two);
+    left: 0;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    border: 1px solid var(--background-color);
+}	
+.tabs > div:not(:target) > div {
+    position: absolute;
 }
-.tab{
-    display: none;
-    height: 30vh;
-    overflow: auto;
-    display: block;
-    position: relative;
-    overflow-x: hidden;
-}
-#about-tab-gci:target,
-#about-tab-lg:target,
-#about-tab-clc:target,
-#about-tab-vpl:target{
-    display: block;
+.tabs > div:target > div{ 
+    position: absolute;
+    z-index: -1;
 }
 @media all and (min-width: 568px) and (max-width: 768px){
     :root{
