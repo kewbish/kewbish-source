@@ -115,54 +115,68 @@ button{
 .grid-element:nth-last-child(1):nth-child(odd){
     grid-column: 1 / span 3;
 }
-.vtabs{
+#tabs{
+    position: relative;
+    width: 100%;
+}
+#tab-links{
+    list-style: none;
+    overflow: hidden;
+}
+#tab-links li{
+    display: inline;
+}
+#tab-links li a{
+    padding: 1% 2%;
+    background: var(--accent-two);
+    border: 3px solid var(--background-color);
+    float: left;
     display: block;
     position: relative;
 }
-.vtabs input[name="tabs"]{
-    left: -9999px;
-    top: -9999px;
-    position: absolute;
+#tab-links li a:hover{
+    background-color: var(--background-color);
 }
-.vtabs .tab{
-    display: block;
-}
-.vtabs .tab label{
-    background-color: var(--accent-two);
-    border: var(--text-color);
-    cursor: pointer;
-    display: block;
-    padding: 1%;
+#tabs-container{
+    height: 25vh;
+    background: var(--accent-two);
+    overflow: hidden;
+    padding: 2% 3.5%;
     position: relative;
-    width: 40%;
 }
-.vtabs .tab .tab-c{
+.tab{
     display: none;
+    height: 30vh;
+    overflow: auto;
+    display: block;
     position: relative;
+    overflow-x: hidden;
 }
-.vtabs .tab .tab-c:after{
+#about-tab-gci:target,
+#about-tab-lg:target,
+#about-tab-clc:target,
+#about-tab-vpl:target{
     display: block;
 }
-.vtabs input[name="tabs"]:checked ~ .tab-c{
-    display: block;
-}
-@media all and (min-width: 568px) and (max-width: 768px) {
+@media all and (min-width: 568px) and (max-width: 768px){
     :root{
         --grid-columns: 1fr 1fr;
     }
-    .grid-element:nth-child(4n+2),
-    .grid-element:nth-child(4n+3),
-    .grid-element:nth-last-child(1):nth-child(odd){
+    .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
     }
+    #tabs-container{
+        height: 37vh;
+    }
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px){
     :root{
         --grid-columns: 1fr;
     }
-    .grid-element:nth-child(4n+2),
-    .grid-element:nth-child(4n+3),
-    .grid-element:nth-last-child(1):nth-child(odd){
+    .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
+    }
+    #tabs-container{
+        height: 45vh;
     }
 }
