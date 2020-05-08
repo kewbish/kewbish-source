@@ -99,8 +99,26 @@ button{
 }
 .grid-two{
     display: grid;
-    grid-template-columns: 7fr 4fr;
+    grid-template-columns: 5fr 1fr 5fr;
     grid-column-gap: 1em;
+    grid-row-gap: 1.5em;
+    grid-column-gap: 1em;
+}
+.grid-two-spread{
+    grid-column: 1 / span 2;
+}
+.grid-two-element{
+    background-color: var(--accent-two);
+    padding: 2% 3%;
+}
+.grid-two-element:nth-child(4n+2){
+    grid-column: 2 / span 2;
+}
+.grid-two-element:nth-child(4n+3){
+    grid-column: 1 / span 2;
+}
+.grid-two-element:nth-last-child(1):nth-child(odd){
+    grid-column: 1 / span 3;
 }
 .grid-element{
     background-color: var(--accent-two);
@@ -115,54 +133,12 @@ button{
 .grid-element:nth-last-child(1):nth-child(odd){
     grid-column: 1 / span 3;
 }
-.tabs{
-    min-height: 250px;
-    position: relative;
-    width: 100%;
-}
-.tabs > div {
-    display: inline;
-}
-.tabs > div > a {
-    margin-left: -1px;
-    position: relative;
-    left: 1px;
-    text-decoration: none;
-    background: var(--background-color);
-    display: block;
-    float: left;
-    padding: 5px 10px;
-    border: 1px solid var(--background-color)
-}
-.tabs > div:not(:target) > a {
-    border-bottom: 0;
-    background-color: var(--accent-two);
-}
-.tabs > div > div{
-    background-color: var(--accent-two);
-    left: 0;
-    top: 30px;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
-    border: 1px solid var(--background-color);
-}	
-.tabs > div:not(:target) > div {
-    position: absolute;
-}
-.tabs > div:target > div{ 
-    position: absolute;
-    z-index: -1;
-}
 @media all and (min-width: 568px) and (max-width: 768px){
     :root{
         --grid-columns: 1fr 1fr;
     }
     .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
-    }
-    #tabs-container{
-        height: 37vh;
     }
 }
 @media all and (max-width: 568px){
@@ -171,8 +147,5 @@ button{
     }
     .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
-    }
-    #tabs-container{
-        height: 45vh;
     }
 }
