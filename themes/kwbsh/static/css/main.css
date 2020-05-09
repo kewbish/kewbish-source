@@ -73,6 +73,10 @@ button{
     cursor: pointer;
     text-decoration: underline var(--accent-color);
 }
+svg{
+    height: 100%;
+    width: 100%;
+}
 .hero{
     text-align: center;
     margin: 0 auto;
@@ -107,31 +111,33 @@ button{
 .grid-two-spread{
     grid-column: 1 / span 2;
 }
-.grid-two-element{
+.grid-two-element,
+.grid-three-element{
     background-color: var(--accent-two);
-    padding: 2% 3%;
+    padding: 2.5% 3.5%;
 }
-.grid-two-element:nth-child(4n+2){
-    grid-column: 2 / span 2;
-}
-.grid-two-element:nth-child(4n+3){
-    grid-column: 1 / span 2;
-}
-.grid-two-element:nth-last-child(1):nth-child(odd){
-    grid-column: 1 / span 3;
-}
+
 .grid-element{
     background-color: var(--accent-two);
     padding: 2% 3.5%;
 }
+.grid-two-element:nth-child(4n+2),
 .grid-element:nth-child(4n+2){
     grid-column: 2 / span 2;
 }
+.grid-two-element:nth-child(4n+3),
 .grid-element:nth-child(4n+3){
     grid-column: 1 / span 2;
 }
+.grid-two-element:nth-last-child(1):nth-child(odd),
 .grid-element:nth-last-child(1):nth-child(odd){
     grid-column: 1 / span 3;
+}
+.grid-three{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-column-gap: 2%;
+    margin: 2% 0;
 }
 @media all and (min-width: 568px) and (max-width: 768px){
     :root{
@@ -140,6 +146,9 @@ button{
     .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
     }
+    .grid-three-element{
+        padding: 4% 5%;
+    }
 }
 @media all and (max-width: 568px){
     :root{
@@ -147,5 +156,8 @@ button{
     }
     .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
         grid-column: auto;
+    }
+    .grid-three-element{
+        padding: 4% 5%;
     }
 }
