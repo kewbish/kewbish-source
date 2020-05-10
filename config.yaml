@@ -4,4 +4,3 @@ title: "Kewbish | Developer"
 theme: "kwbsh"
 relativeURLs: true
 disableKinds: ["taxonomy", "taxonomyTerm", "section"]
-publishDir: docs
