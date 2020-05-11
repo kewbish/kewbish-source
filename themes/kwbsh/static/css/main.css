@@ -9,6 +9,8 @@
     --accent-color: #ffb451;
     --accent-two: #323232;
     --grid-columns: minmax(100px, 2fr) minmax(100px, 1fr) minmax(100px, 2fr);
+    --grid-two-columns: 5fr 1fr 5fr;
+    --grid-three-columns: repeat(3, minmax(100px, 1fr));
     --font-one: "Consolas", "Courier New", monospace;
     --font-two: "Source Sans Pro", sans-serif;
     scroll-behavior: smooth;
@@ -103,7 +105,7 @@ svg{
 }
 .grid-two{
     display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
+    grid-template-columns: var(--grid-two-columns);
     grid-column-gap: 1em;
     grid-row-gap: 1.5em;
     grid-column-gap: 1em;
@@ -135,29 +137,42 @@ svg{
 }
 .grid-three{
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: var(--grid-three-columns);
     grid-column-gap: 2%;
     margin: 2% 0;
+}
+@media all and (max-width: 768px){
+    :root{
+        --grid-two-columns: 1fr;
+        --grid-three-columns: 1fr;
+    }
+    .grid,
+    .grid-two,
+    .grid-three{
+        grid-row-gap: 0.7em;
+    }
+    .grid-element:nth-child(4n+2),
+    .grid-element:nth-child(4n+3),
+    .grid-element:nth-last-child(1):nth-child(odd),
+    .grid-two-element:nth-child(4n+2),
+    .grid-two-element:nth-child(4n+3),
+    .grid-two-element:nth-last-child(1):nth-child(odd){
+        grid-column: auto;
+    }
+    .grid-three-element{
+        padding: 4% 5%;
+    }
+    input, textarea{
+        width: 70vw;
+    }
 }
 @media all and (min-width: 568px) and (max-width: 768px){
     :root{
         --grid-columns: 1fr 1fr;
     }
-    .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
-        grid-column: auto;
-    }
-    .grid-three-element{
-        padding: 4% 5%;
-    }
 }
 @media all and (max-width: 568px){
     :root{
         --grid-columns: 1fr;
-    }
-    .grid-element:nth-child(4n+2), .grid-element:nth-child(4n+3), .grid-element:nth-last-child(1):nth-child(odd){
-        grid-column: auto;
-    }
-    .grid-three-element{
-        padding: 4% 5%;
     }
 }
