@@ -147,6 +147,9 @@ svg{
         --grid-two-columns: 1fr;
         --grid-three-columns: 1fr;
     }
+    h1, h2{
+        margin: 1% 0;
+    }
     .grid,
     .grid-two,
     .grid-three{
