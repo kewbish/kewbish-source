@@ -1,0 +1,82 @@
+{
+    "About": {
+        "Bio": "Some people also call me Emilie Ma.<br>I'm a resilient 14-year-old software developer, navigating through frontend, backend, and upside-down development. I have a keen interest in automation, especially in creating robust, reusable frameworks and stable command-line interfaces.",
+        "Location": "Vancouver, Canada",
+        "Volunteering": {
+            "Link": "https://liquidgalaxy.eu",
+            "Text": "Liquid Galaxy"
+        },
+        "Currently": {
+            "Link": "https://github.com/kewbish/site-source",
+            "Text": "My Website"
+        }
+    },
+    "Studies": [
+        {
+            "Name": "University Transition Program",
+            "Bio": "The <a href=\"https://universitytransition.ca\">University Transition Program</a> is a radically accelerated environment with the goal of early entrance into university - specifically <a href=\"https://ubc.ca\">UBC</a>.<br>I'm currently in my first year out of two, and am planning to enter UBC at age 15.",
+            "Activities": [
+                {
+                    "Text": "co-lead Coding Club, guiding peers into the basics of 🐍 Python and 🔑 cryptography skills."
+                },
+                {
+                    "Text": "partipate in 🌠 <a href=\"https://physoly.phas.ubc.ca/\">Physics Olympics</a>"
+                },
+                {
+                    "Text": "compete in 🚨 Reach for the Top"
+                },
+                {
+                    "Text": "& play in the Transition Band"
+                }
+            ]
+        }
+    ],
+    "Experience": [
+        {
+            "Position": "Google Code-in",
+            "Date": "Dec. 2019",
+            "Description": "In 2019, I was a 🏆 [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won this worldwide competition. I'm one of Canada's six winners to date, the only female, and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
+        },
+        {
+            "Position": "Liquid Galaxy",
+            "Date": "Since Feb. 2020",
+            "Description": "Intern at 🌎 [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and manage the Arduino controller project!"
+        },
+        {
+            "Position": "Canada Learning Code",
+            "Date": "Since Oct. 2019",
+            "Description": "Teen Ambassador at 🇨🇦 [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and organize meetups."
+        },
+        {
+            "Position": "Vancouver Public Library",
+            "Date": "Since Sept. 2018",
+            "Description": "Teen Advisory Member at the 📙 [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend monthly youth meetings. As well, I review teen literature under the Teens Read it First program."
+        }
+    ],
+    "Skills": [
+        {
+            "Title": "Web Development",
+            "Desc": "Handcrafting websites with HTML, CSS, Bootstrap, Bulma, Vue and other frameworks. Creating static encounters with Hugo."
+        },
+        {
+            "Title": "Python",
+            "Desc": "Applying open source libraries to create graphical and command-line utilities. Automating redundant tasks in the terminal."
+        },
+        {
+            "Title": "Git // VCS",
+            "Desc": "Utilizing graphical and terminal workflows for version control. Leveraging GitHub to spread open source technology and to benefit others."
+        },
+        {
+            "Title": "Game Development",
+            "Desc": "Using Unity to create immersive 2D and 3D experiences with C#. Graduate of Under the GUI *2016 - 2018*"
+        },
+        {
+            "Title": "Productivity Tools",
+            "Desc": "Dual user of Windows and Linux, building productive development workflows and environments."
+        },
+        {
+            "Title": "Open Source Contributions",
+            "Desc": "Participated in Hacktoberfest 2019, contributing to a variety of open source projects, including CircleCI, PublicLab, and the Accord Project."
+        }
+    ]
+}

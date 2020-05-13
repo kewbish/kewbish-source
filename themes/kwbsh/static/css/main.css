@@ -64,6 +64,7 @@ input, textarea{
     font-size: 1em;
     font-family: var(--font-one);
     color: var(--text-color);
+    border: 1px solid var(--text-color);
     width: 40vw;
 }
 button{
