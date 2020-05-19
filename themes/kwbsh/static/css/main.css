@@ -157,13 +157,15 @@ svg{
     }
     .grid-element:nth-child(4n+2),
     .grid-element:nth-child(4n+3),
-    .grid-element:nth-last-child(1):nth-child(odd),
     .grid-two-element:nth-child(4n+2),
-    .grid-two-element:nth-child(4n+3),
-    .grid-two-element:nth-last-child(1):nth-child(odd){
+    .grid-two-element:nth-child(4n+3){
         grid-column: auto;
     }
-    .grid-three-element{
+    .grid-two-element:nth-last-child(1):nth-child(odd),
+    .grid-element:nth-last-child(1):nth-child(odd){
+        grid-column: 1 / -1;
+    }
+    .grid-element, .grid-two-element, .grid-three-element{
         padding: 4% 5%;
     }
     input, textarea{
