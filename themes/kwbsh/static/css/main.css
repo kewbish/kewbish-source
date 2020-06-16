@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +13,7 @@
     --grid-columns: minmax(100px, 2fr) minmax(100px, 1fr) minmax(100px, 2fr);
     --grid-two-columns: 5fr 1fr 5fr;
     --grid-three-columns: repeat(3, minmax(100px, 1fr));
-    --font-one: "Consolas", "Courier New", monospace;
+    --font-one: "Consolas", "Courier New", "Inconsolata", monospace;
     --font-two: "Source Sans Pro", sans-serif;
     scroll-behavior: smooth;
     text-decoration: none;
