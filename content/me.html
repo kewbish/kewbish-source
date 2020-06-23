@@ -16,37 +16,39 @@
         <h1>Hey - it's Kewbish.</h1>
         <div class="grid-two">
             {{ with $.Site.Data.me.About }}
-                <div class="grid-two-spread">
-                    <p>{{ .Bio }}</p>
-                    <p>See my <a href="../Resume.pdf">resume</a>, <a href="https://kewbish.github.io/blog">blog</a>, or <a
-                            href="../folio">projects</a>.</p>
-                    <p>Or see <a href="#about-education">where I'm studying</a>, <a href="#about-exp">where I volunteer</a>,
-                        or <a href="#about-skills">my skills</a>.</p>
-                </div>
-                <p>📍 Located in: {{ .Location }}<br>🤝 Volunteering: <a href="{{ .Volunteering.Link }}">{{ .Volunteering.Text }}</a><br>📧 Email me: <a href="mailto:kewbish@gmail.com">kewbish@gmail.com</a><br>⚙️ Working
-                    on: <a href="{{ .Currently.Link }}">{{ .Currently.Text }}</a></p>
+            <div class="grid-two-spread">
+                <p>{{ .Bio }}</p>
+                <p>See my <a href="../Resume.pdf">resume</a>, <a href="https://kewbish.github.io/blog">blog</a>, or <a
+                        href="../folio">projects</a>.</p>
+                <p>Or see <a href="#about-education">where I'm studying</a>, <a href="#about-exp">where I volunteer</a>,
+                    or <a href="#about-skills">my skills</a>.</p>
+            </div>
+            <p>📍 Located in: {{ .Location }}<br>🤝 Volunteering: <a
+                    href="{{ .Volunteering.Link }}">{{ .Volunteering.Text }}</a><br>📧 Email me: <a
+                    href="mailto:kewbish@gmail.com">kewbish@gmail.com</a><br>⚙️ Working
+                on: <a href="{{ .Currently.Link }}">{{ .Currently.Text }}</a></p>
             {{ end }}
         </div>
         <div id="about-exp">
             <h2>Contributing and volunteering experience.</h2>
             <div class="grid-two">
                 {{ range $.Site.Data.me.Experience }}
-                    <div class="grid-two-element">
-                        <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
-                    </div>
+                <div class="grid-two-element">
+                    <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
+                </div>
                 {{ end }}
             </div>
         </div>
         <div id="about-education">
             {{ with $.Site.Data.me.Education }}
-                <h2>Currently studying at the {{ .Name }}</h2>
-                <p>{{ .Bio }}</p>
-                <p>There, I:</p>
-                <ul>
-                    {{ range .Activities }}
-                        <li>{{ .Text }}</li>
-                    {{ end }}
-                </ul>
+            <h2>Currently studying at the {{ .Name }}</h2>
+            <p>{{ .Bio }}</p>
+            <p>There, I:</p>
+            <ul>
+                {{ range .Activities }}
+                <li>{{ .Text }}</li>
+                {{ end }}
+            </ul>
             {{ end }}
         </div>
         </div>
@@ -54,7 +56,7 @@
             <h2>I'm a constant learner.</h2>
             <div class="grid">
                 {{ range $.Site.Data.me.Skills }}
-                    <p class="grid-element"><strong>{{ .Title }}</strong> - {{ .Desc | markdownify }}</p>
+                <p class="grid-element"><strong>{{ .Title }}</strong> - {{ .Desc | markdownify }}</p>
                 {{ end }}
             </div>
         </div>
@@ -63,7 +65,8 @@
                     href="../folio">projects.</a></p>
         </div>
         <div id="about-contact">
-            <h2>Let's get in touch.</h2>
+            <h2 style="padding-bottom: 0;">Let's get in touch.</h2>
+            <p>Business inquiries only, please. Open for collaboration if time permits.</p>
             <form action="https://formspree.io/mnqgqgyv" method="post">
                 <input type="text" name="name" placeholder="📛 Your name">
                 <input type="email" name="email" placeholder="📧 Your email">

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <section class="folio">
         <p><a href="../">&lt; go back</a></p>
@@ -15,15 +17,15 @@
         <p>Interested in working together? <a href="../me#about-contact">Let's talk</a>.</p>
         <div id="folio-projects" class="grid">
             {{ range $.Site.Data.projects.Projects }}
-                <div class="grid-element">
-                    <p><strong>{{ .Title }}</strong></p>
-                    <p>{{ .Description }}</p>
-                    {{ if .Link }}
-                        <p><a href="{{ .Github }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
-                    {{ else }}
-                        <p><a href="{{ .Github }}">Source</a></p>
-                    {{ end }}
-                </div>
+            <div class="grid-element">
+                <p><strong>{{ .Title }}</strong></p>
+                <p>{{ .Description }}</p>
+                {{ if .Link }}
+                <p><a href="{{ .Github }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
+                {{ else }}
+                <p><a href="{{ .Github }}">Source</a></p>
+                {{ end }}
+            </div>
             {{ end }}
         </div>
         <div id="about-toolkit">
@@ -36,7 +38,7 @@
                 </div>
                 <div class="grid-three-element">
                     <p><strong>Scalable apps and software with:</strong></p>
-                    <p>➥ Python // Kivy // Flutter // Unity // Firebase // C#</p>
+                    <p>➥ Python // Flask // MongoDB // Kivy // Firebase // VueJS</p>
                 </div>
                 <div class="grid-three-element">
                     <p><strong>Successful workflows with:</strong></p>
