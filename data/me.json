@@ -7,8 +7,8 @@
             "Text": "Liquid Galaxy"
         },
         "Currently": {
-            "Link": "https://github.com/kewbish/site-source",
-            "Text": "My Website"
+            "Link": "https://dev.to/kewbish/i-m-starting-cs50x-6jn",
+            "Text": "CS50x"
         }
     },
     "Studies": [
@@ -51,6 +51,11 @@
             "Position": "Vancouver Public Library",
             "Date": "Since Sept. 2018",
             "Description": "Teen Advisory Member at the 📙 [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend monthly youth meetings. As well, I review teen literature under the Teens Read it First program."
+        },
+        {
+            "Position": "Grant For The Web Hackathon Winner",
+            "Date": "May - Jun. 2020",
+            "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) 💸 under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS."
         }
     ],
     "Skills": [
