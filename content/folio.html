@@ -11,42 +11,6 @@
 </head>
 
 <body>
-    <section class="folio">
-        <p><a href="../">&lt; go back</a></p>
-        <h1>See my projects.</h1>
-        <p>Interested in working together? <a href="../me#about-contact">Let's talk</a>.</p>
-        <div id="folio-projects" class="grid">
-            {{ range $.Site.Data.projects.Projects }}
-            <div class="grid-element">
-                <p><strong>{{ .Title }}</strong></p>
-                <p>{{ .Description }}</p>
-                {{ if .Link }}
-                <p><a href="{{ .Github }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
-                {{ else }}
-                <p><a href="{{ .Github }}">Source</a></p>
-                {{ end }}
-            </div>
-            {{ end }}
-        </div>
-        <div id="about-toolkit">
-            <h2>My toolkit</h2>
-            <p style="margin-bottom: 1%;">🧰 I build with the following cool things...</p>
-            <div class="grid-three">
-                <div class="grid-three-element">
-                    <p><strong>Responsive web experiences with:</strong></p>
-                    <p>➥ HTML // CSS // JS // Bulma // Hugo // NetlifyCMS</p>
-                </div>
-                <div class="grid-three-element">
-                    <p><strong>Scalable apps and software with:</strong></p>
-                    <p>➥ Python // Flask // MongoDB // Kivy // Firebase // VueJS</p>
-                </div>
-                <div class="grid-three-element">
-                    <p><strong>Successful workflows with:</strong></p>
-                    <p>➥ Windows // Linux (Ubuntu) // GitHub // Git VCS // VSCode // Vim</p>
-                </div>
-            </div>
-        </div>
-        <p><a href="../me/">Learn more about me</a> or <a href="https://kewbish.github.io/blog">read my blog</a>.</p>
-        <p><a href="../">&lt; go back</a></p>
-    </section>
 </body>
+
+</html>
