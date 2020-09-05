@@ -38,16 +38,15 @@ a:hover {
 }
 .index-main {
     display: grid;
-    grid-template-columns: minmax(100px, 3fr) minmax(100px, 1fr);
-    column-gap: 10px;
+    grid-template-columns: minmax(100px, 2fr) minmax(100px, 1fr);
     width: 80%;
     position: absolute;
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
     margin: auto;
 }
 #salutation {
-    margin-bottom: -2%;
+    font-size: 1.5em;
 }
 #name {
     font-size: 7.5em;
@@ -55,10 +54,28 @@ a:hover {
     margin-left: -1%; 
 }
 .index-main-copy table {
-    width: min(10%, 100px);
+    width: min(18%, 150px);
+    border-spacing: 5px;
+    margin-left: -1%;
 }
 .index-main-pic {
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
+    filter: brightness(70%) contrast(60%);
 }
-
+#main_blob {
+    transform: rotateZ(-70deg);
+    position: absolute;
+    right: -25em;
+    top: -5em;
+    width: 60%;
+    z-index: -1;
+}
+#blob {
+    transform: rotateZ(14deg);
+    position: absolute;
+    left: -10em;
+    bottom: -10em;
+    width: 30%;
+    z-index: -1;
+}
