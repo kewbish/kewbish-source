@@ -32,13 +32,19 @@ a:hover {
 }
 /* index page  */
 .index {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden hidden;
+    background: url("../Back.svg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 .index-main {
     display: grid;
     grid-template-columns: minmax(100px, 2fr) minmax(100px, 1fr);
+    grid-template-areas: "copy pic";
     width: 80%;
     position: absolute;
     top: 45%;
@@ -53,12 +59,16 @@ a:hover {
     font-weight: 700;
     margin-left: -1%; 
 }
+.index-main-copy {
+    grid-area: copy;
+}
 .index-main-copy table {
     width: min(18%, 150px);
     border-spacing: 5px;
     margin-left: -1%;
 }
 .index-main-pic {
+    grid-area: pic;
     width: 80%;
     border-radius: 50%;
     filter: brightness(70%) contrast(60%);
@@ -78,4 +88,19 @@ a:hover {
     bottom: -10em;
     width: 30%;
     z-index: -1;
+}
+/* mobile  */
+@media only screen and (max-width: 768px) {
+    .index {
+        overflow: hidden scroll;
+    }
+    .index-main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "pic" "copy";
+        width: 100%;
+        margin: 10%;
+    }
+    .index-main-copy {
+        max-width: 80%;
+    }
 }
