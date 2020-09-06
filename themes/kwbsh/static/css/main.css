@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 :root {
     --main-colour: #1E1E1E;
+    --sub-colour: #323232;
     --accent-colour: #FF9D1D;
     --accent-two: #FFC06C;
+    --grid-columns: 5fr 1fr 5fr;
 }
 * {
     margin: 0;
@@ -30,6 +32,26 @@ a:hover {
     color: var(--accent-colour);
     transition: 0.5s;
 }
+/* grid  */
+.grid {
+    display: grid;
+    grid-template-columns: var(--grid-columns);
+    column-gap: 1em;
+    row-gap: 1.5em;
+}
+.grid-element {
+    background-color: var(--accent-two);
+    padding: 2.5% 3.5%;
+}
+.grid-element:nth-child(4n+2) {
+    grid-column: 2 / span 2;
+}
+.grid-element:nth-child(4n+3) {
+    grid-column: 1 / span 2;
+}
+.grid-element:nth-last-child(1):nth-child(odd) {
+    grid-column: 1 / span 3;
+}
 /* index page  */
 .index {
     display: flex;
@@ -52,13 +74,12 @@ a:hover {
 #salutation {
     font-size: 1.5em;
 }
-#name {
+.title {
     font-size: 7.5em;
     font-weight: 700;
     margin-left: -1%; 
 }
-.index-main table {
-    width: min(18%, 150px);
+.index-main table { width: min(18%, 150px);
     border-spacing: 7px;
     margin-top: 1.5%;
     margin-left: -1%;
@@ -79,6 +100,7 @@ a:hover {
     width: 30%;
     z-index: -1;
 }
+/* me */
 /* mobile  */
 @media only screen and (max-width: 768px) {
     .index {
