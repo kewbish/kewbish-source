@@ -1,5 +1,5 @@
 {
-    "Education": [
+    "Education": 
         {
             "Name": "University Transition Program",
             "Bio": "The <a href=\"https://universitytransition.ca\">University Transition Program</a> is a radically accelerated environment with the goal of early entrance into university - specifically <a href=\"https://ubc.ca\">UBC</a>.<br>I'm currently in my first year out of two, and am planning to enter UBC at age 15.",
@@ -17,8 +17,7 @@
                     "Text": "& play in the Transition Band"
                 }
             ]
-        }
-    ],
+        },
     "Experience": [
         {
             "Position": "Google Code-in",

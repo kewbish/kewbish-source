@@ -19,7 +19,7 @@
         <div class="me-intro-grid">
             <div class="me-intro">
                 <p>Some people also call me Emilie Ma. I'm a resilient 14-year-old software developer, navigating through development - frontend, backend, and everything in between. I have a keen interest in automation and the web, and the intersections of both.</p>
-                <p>See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="#projects">projects</a>.</p>
+                <p>See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="#projects">projects</a>.</p>
             </div>
             <img src="../pic.png" class="me-pic">
         </div>
@@ -31,7 +31,7 @@
                 </div>
             {{ end }}
         </div>
-        {{ with $.Site.Data.me.Education }}
+        {{ with .Site.Data.me.Education }}
             <h2>Currently studying at the {{ .Name }}</h2>
             <div class="me-education">
                 <p>{{ .Bio }}</p>
