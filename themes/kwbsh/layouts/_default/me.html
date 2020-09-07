@@ -10,40 +10,40 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <div class="me">
+<body class="me cont">
+    <div style="margin-top: 3%;" class="me-main">
         <a href="../">
             <p>&lt; go back</p>       
         </a>
-        <h1 class="title">Hey - it's Kewbish.</h1>
+        <h1 class="subtitle">Hey - it's Kewbish.</h1>
         <div class="me-intro-grid">
             <div class="me-intro">
                 <p>Some people also call me Emilie Ma. I'm a resilient 14-year-old software developer, navigating through development - frontend, backend, and everything in between. I have a keen interest in automation and the web, and the intersections of both.</p>
-                <p>See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="#projects">projects</a>.</p>
+                <p style="margin-top: 1.5%;">See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="#projects">projects</a>.</p>
             </div>
             <img src="../pic.png" class="me-pic">
         </div>
-        <h2>Experience</h2>
+        <h2 class="sub-2">Experience</h2>
         <div class="me-experience grid">
             {{ range $.Site.Data.me.Experience }}
-                <div class="grid-two-element">
+                <div class="grid-element">
                     <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
                 </div>
             {{ end }}
         </div>
         {{ with .Site.Data.me.Education }}
-            <h2>Currently studying at the {{ .Name }}</h2>
+            <h2 class="sub-2">Currently studying at the {{ .Name }}</h2>
             <div class="me-education">
-                <p>{{ .Bio }}</p>
+                <p>{{ .Bio | safeHTML }}</p>
                 <p>There, I:</p>
                 <ul>
                     {{ range .Activities }}
-                    <li>{{ .Text }}</li>
+                    <li>{{ .Text | safeHTML }}</li>
                     {{ end }}
                 </ul>
             </div>
         {{ end }}
-        <h2>I'm a constant learner</h2>
+        <h2 class="sub-2">I'm a constant learner</h2>
         <div class="me-skills grid">
             {{ range $.Site.Data.me.Skills }}
                 <p class="grid-element"><strong>{{ .Title }}</strong> - {{ .Desc | markdownify }}</p>
@@ -51,12 +51,12 @@
         </div>
         <p><br>See this page in a <a href="../Resume.pdf">resume format</a>. Otherwise, see my <a href="../folio">projects.</a></p>
         <div class="me-contact">
-            <h2>Let's get in touch.</h2>
+            <h2 class="sub-2">Let's get in touch.</h2>
             <form action="https://formspree.io/mnqgqgyv" method="post">
-                <input type="text" name="name" placeholder="📛 Your name">
+                <input type="text" name="name" placeholder="Your name">
                 <input type="email" name="email" placeholder="📧 Your email">
                 <textarea name="message" cols="30" rows="10"
-                    placeholder="💼 What do you want to work on together?"></textarea>
+                    placeholder="Let's chat."></textarea>
                 <button type="submit">Submit.</button>
             </form>
         </div>
