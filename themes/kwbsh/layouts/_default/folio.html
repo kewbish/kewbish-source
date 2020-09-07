@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kewbish // Emilie - Developer</title>
+    <meta name="description" content="About Kewbish. Excited to build, develop, and create.">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body class="folio cont">
+    <div class="folio-main">
+        <a href="../">
+            <p>&lt; go back</p>       
+        </a>
+        <h1 class="subtitle">My projects.</h1>
+        <p style="margin-bottom: 1%;">Interested in working together? <a href="../me#contact">Get in touch</a>.</p>
+        <p>You might also want to <a href="../me">get to know me more</a> or <a href="../blog">read more about the projects below</a>.</p>
+        <div class="folio-projects grid">
+            {{ range $.Site.Data.projects.Projects }}
+            <div class="grid-element">
+                <p><strong>{{ .Title }}</strong></p>
+                <p>{{ .Description }}</p>
+                {{ if .Link }}
+                <p><a href="{{ .Github }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
+                {{ else }}
+                <p><a href="{{ .Github }}">Source</a></p>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        <h2 class="sub-2">I use:</h2>
+        <div class="folio-uses">
+            {{ with $.Site.Data.projects.Uses }}
+            <table class="folio-uses-languages">
+                <tr>
+                    {{ range .Languages  }}
+                    <td>{{ . | markdownify }}</td>
+                    {{ end }}
+                </tr>
+            </table>
+            {{ end }}
+        </div>
+    </div>
+</body>
+
+</html>

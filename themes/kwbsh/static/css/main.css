@@ -42,7 +42,7 @@ a:hover {
 }
 .grid-element {
     background-color: var(--sub-colour);
-    padding: 2.5% 3.5%;
+    padding: 1.3em;
     border-radius: 1%;
 }
 .grid-element p {
@@ -87,7 +87,8 @@ a:hover {
     font-weight: 700;
     margin-left: -1%; 
 }
-.index-main table { width: min(18%, 150px);
+.index-main table {
+    width: min(18%, 150px);
     border-spacing: 7px;
     margin-top: 1.5%;
     margin-left: -1%;
@@ -120,22 +121,25 @@ a:hover {
 }
 /* me */
 .me {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5%;
+    margin: 4.5% 0;
 }
 .me-main {
     width: 75%;
 }
 .me-intro-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 4fr 1fr;
     margin-bottom: 2%;
 }
 .me-pic {
     border-radius: 50%;
     box-shadow: 5px 5px var(--accent-colour);
-    width: 40%;
+    width: 60%;
+    margin: -10% 0 0 5%;
+}
+li {
+    list-style-position: inside;
+    margin-left: 1%;
 }
 input, textarea, button{
     display: block;
@@ -145,13 +149,33 @@ input, textarea, button{
     font-size: 1em;
     font-family: Montserrat;
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     border: none;
     width: 40vw;
 }
 button {
     cursor: pointer;
     width: 150px;
+}
+/* folio */
+.folio {
+    margin: 4.5% 0;
+}
+.folio-main {
+    width: 75%;
+}
+.folio-projects {
+    margin: 2% 0;
+}
+.folio-uses td {
+    margin: 1%;
+    padding: 2%;
+    background: var(--sub-colour);
+    border-radius: 1%;
+}
+.folio-uses table {
+    border-spacing: 7px;
+    margin-left: -7px;
 }
 /* mobile  */
 @media only screen and (max-width: 768px) {

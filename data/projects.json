@@ -2,43 +2,69 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Combining data-driven content with blazing speed.",
+            "Description": "Handcrafted with Hugo. Combining data-driven content with blazing fast generation and all-100% Lighthouse scores.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
             "Link": "https://kewbish.github.io"
         },
         {
             "Title": "🖋️ Yours, Kewbish",
-            "Description": "My personal blog in the form of an attempted collection of epistolary essays.",
+            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. RSS feed included.",
             "Github": "https://github.com/kewbish/blog",
             "Link": "https://kewbish.github.io/blog"
         },
         {
-            "Title": "🤖 Justin",
-            "Description": "A command-line interface for automating common workflows and development tasks.",
-            "Github": "https://github.com/kewbish/justin"
-        },
-        {
-            "Title": "👩‍🏫 Kenna",
-            "Description": "A non-developer-friendly interface for teachers to create scalable web presences.",
-            "Github": "https://github.com/kewbish/kenna",
-            "Link": "https://kewbish.github.io/kenna/"
-        },
-        {
             "Title": "🌊 DiveIntoHT.ML",
-            "Description": "An interactive short course designed to teach the basics of web design.",
+            "Description": "An interactive short course designed to teach the basics of web design. Accumulated 350+ users, recommended by several teachers.",
             "Github": "https://github.com/kewbish/sjap/",
             "Link": "https://diveintoht.ml"
         },
         {
             "Title": "🎥 Zoomy",
-            "Description": "A minimalist Zoom utility for the terminal. Super useful during the Age of Zoom.",
+            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. Super useful during the Age of Zoom.",
             "Github": "https://github.com/kewbish/zoomy",
             "Link": "https://pypi.org/project/zoomy/"
+        },
+        {
+            "Title": "💸 Revshare.js",
+            "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won Grant For The Web Hackathon.",
+            "Github": "https://github.com/kewbish/revshare",
+            "Link": "https://kewbish.github.io/revshare/"
+        },
+        {
+            "Title": "💵 Revshare for GitHub",
+            "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue.",
+            "Github": "https://github.com/kewbish/revshare-gh"
+        },
+        {
+            "Title": "🔮 Obviate",
+            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
+            "GitHub": "https://github.com/kewbish/obviate-src"
+        },
+        {
+            "Title": "🎙️ GCIers Podcast",
+            "Description": "A monthly tech podcast featuring yours truly and several other Liquid Galaxy GCI students. We discuss tech and open source news.",
+            "Link": "https://www.liquidgalaxy.eu/2020/08/gciers-podcast.html"
+        },
+        {
+            "Title": "🤖 Justin",
+            "Description": "A command-line interface for automating common workflows and development tasks. Make getting set up easy, with useful commands.",
+            "Github": "https://github.com/kewbish/justin"
+        },
+        {
+            "Title": "👩‍🏫 Kenna",
+            "Description": "A non-developer-friendly interface for teachers to create scalable web presences. Consider this a Obviate prototype and precursor.",
+            "Github": "https://github.com/kewbish/kenna",
+            "Link": "https://kewbish.github.io/kenna/"
         },
         {
             "Title": "📓 Opus",
             "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and email report generation.",
             "Github": "https://github.com/kewbish/opus"
         }
-    ]
+    ],
+    "Uses": {
+        "Languages": [
+            "**Python** - Flask, Click, Kivy, various CLIs", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Bash"
+        ]
+    }
 }
