@@ -22,11 +22,12 @@ html {
 svg {
     fill: var(--accent-two);
 }
-p {
+p, li {
     font-size: 1.2em;
 }
 a {
     color: white;
+    text-decoration: var(--accent-colour) underline;
 }
 a:hover {
     color: var(--accent-colour);
@@ -37,12 +38,15 @@ a:hover {
     display: grid;
     grid-template-columns: var(--grid-columns);
     column-gap: 1em;
-    row-gap: 1.5em;
+    row-gap: 1em;
 }
 .grid-element {
-    background-color: var(--accent-two);
+    background-color: var(--sub-colour);
     padding: 2.5% 3.5%;
     border-radius: 1%;
+}
+.grid-element p {
+    font-size: 1.1em;
 }
 .grid-element:nth-child(4n+2) {
     grid-column: 2 / span 2;
@@ -53,11 +57,14 @@ a:hover {
 .grid-element:nth-last-child(1):nth-child(odd) {
     grid-column: 1 / span 3;
 }
-/* index page  */
-.index {
+/* container  */
+.cont {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* index page  */
+.index {
     overflow: hidden hidden;
     background: url("../Back.svg") center no-repeat;
     background-size: cover;
@@ -101,7 +108,51 @@ a:hover {
     width: 30%;
     z-index: -1;
 }
+/* subtitles */
+.subtitle {
+    font-size: 5em;
+    font-weight: 700;
+    margin-left: -1%;
+}
+.sub-2 {
+    font-size: 3em;
+    margin: 1.5% 0;
+}
 /* me */
+.me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.me-main {
+    width: 75%;
+}
+.me-intro-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 2%;
+}
+.me-pic {
+    border-radius: 50%;
+    box-shadow: 5px 5px var(--accent-colour);
+    width: 40%;
+}
+input, textarea, button{
+    display: block;
+    background-color: var(--sub-colour);
+    padding: 1% 1%;
+    margin: 1% 0;
+    font-size: 1em;
+    font-family: Montserrat;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 40vw;
+}
+button {
+    cursor: pointer;
+    width: 150px;
+}
 /* mobile  */
 @media only screen and (max-width: 768px) {
     .index {
