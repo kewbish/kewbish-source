@@ -2,7 +2,7 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Combining data-driven content with blazing fast generation and all-100% Lighthouse scores.",
+            "Description": "Handcrafted with Hugo. Blazing fast generation and all-100% Lighthouse scores.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
             "Link": "https://kewbish.github.io"
         },
@@ -14,15 +14,19 @@
         },
         {
             "Title": "🌊 DiveIntoHT.ML",
-            "Description": "An interactive short course designed to teach the basics of web design. Accumulated 350+ users, recommended by several teachers.",
+            "Description": "An interactive short course designed to teach the basics of web design. Accumulated 350+ users, recommended by several CS teachers.",
             "Github": "https://github.com/kewbish/sjap/",
             "Link": "https://diveintoht.ml"
         },
         {
-            "Title": "📸 Zoomy",
-            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. Super useful during the Age of Zoom.",
-            "Github": "https://github.com/kewbish/zoomy",
-            "Link": "https://pypi.org/project/zoomy/"
+            "Title": "🔮 Obviate",
+            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
+            "GitHub": "https://github.com/kewbish/obviate-src"
+        },
+        {
+            "Title": "🎙️ GCIers Podcast",
+            "Description": "A monthly tech podcast featuring yours truly and several other Liquid Galaxy GCI students. We discuss tech and open source news.",
+            "Link": "https://www.liquidgalaxy.eu/2020/08/gciers-podcast.html"
         },
         {
             "Title": "💸 Revshare.js",
@@ -36,14 +40,10 @@
             "Github": "https://github.com/kewbish/revshare-gh"
         },
         {
-            "Title": "🔮 Obviate",
-            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
-            "GitHub": "https://github.com/kewbish/obviate-src"
-        },
-        {
-            "Title": "🎙️ GCIers Podcast",
-            "Description": "A monthly tech podcast featuring yours truly and several other Liquid Galaxy GCI students. We discuss tech and open source news.",
-            "Link": "https://www.liquidgalaxy.eu/2020/08/gciers-podcast.html"
+            "Title": "📸 Zoomy",
+            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. Super useful during the Age of Zoom.",
+            "Github": "https://github.com/kewbish/zoomy",
+            "Link": "https://pypi.org/project/zoomy/"
         },
         {
             "Title": "🤖 Justin",
@@ -64,7 +64,7 @@
     ],
     "Uses": {
         "Languages": [
-            "**Python** - Flask, Click, Kivy, various CLIs", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Bash"
+            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Bash"
         ]
     }
 }
