@@ -87,7 +87,7 @@ a:hover {
     margin-left: -1%; 
 }
 .index-main table {
-    width: min(18%, 150px);
+    width: max(15%, 130px);
     border-spacing: 7px;
     margin-top: 1.5%;
     margin-left: -1%;
@@ -175,23 +175,19 @@ button {
 .folio-projects {
     margin: 2.5% 0;
 }
-.folio-uses td {
-    margin: 1%;
-    padding: 2%;
+.folio-uses {
+    padding: 3%;
     background: var(--sub-colour);
     border-radius: 7px;
-}
-.folio-uses table {
-    border-spacing: 7px;
-    margin-left: -7px;
+    width: 100%;
 }
 /* mobile  */
 @media only screen and (max-width: 768px) {
     .index {
         overflow: hidden scroll;
     }
-    .index-main-copy {
-        max-width: 80%;
+    .title {
+        font-size: 5em;
     }
     .grid {
         grid-row-gap: 0.7em;
