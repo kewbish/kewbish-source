@@ -34,13 +34,11 @@
         <h2 class="sub-2">I use:</h2>
         <div class="folio-uses">
             {{ with $.Site.Data.projects.Uses }}
-            <table class="folio-uses-languages">
-                <tr>
-                    {{ range .Languages  }}
-                    <td>{{ . | markdownify }}</td>
-                    {{ end }}
-                </tr>
-            </table>
+            <p>
+                {{ range .Languages  }}
+                 {{ . | markdownify }} //
+                {{ end }}
+            </p>
             {{ end }}
         </div>
     </div>
