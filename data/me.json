@@ -22,7 +22,7 @@
         {
             "Position": "Google Code-in",
             "Date": "Dec. 2019",
-            "Description": "In 2019, I was a 🏆 [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won this worldwide competition. I'm one of Canada's six winners to date, the only female, and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
+            "Description": "In 2019, I was a 🏆 [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won this worldwide competition. I'm one of Canada's ten winners to date and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
         },
         {
             "Position": "Liquid Galaxy",
@@ -43,32 +43,6 @@
             "Position": "Grant For The Web Hackathon Winner",
             "Date": "May - Jun. 2020",
             "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) 💸 under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS."
-        }
-    ],
-    "Skills": [
-        {
-            "Title": "Web Development",
-            "Desc": "Handcrafting websites with HTML, CSS, Bootstrap, Bulma, Vue and other frameworks. Creating static encounters with Hugo."
-        },
-        {
-            "Title": "Python",
-            "Desc": "Applying open source libraries to create graphical and command-line utilities. Automating redundant tasks in the terminal."
-        },
-        {
-            "Title": "Git // VCS",
-            "Desc": "Utilizing graphical and terminal workflows for version control. Leveraging GitHub to spread open source technology and to benefit others."
-        },
-        {
-            "Title": "Game Development",
-            "Desc": "Using Unity to create immersive 2D and 3D experiences with C#. Graduate of Under the GUI *2016 - 2018*"
-        },
-        {
-            "Title": "Productivity Tools",
-            "Desc": "Dual user of Windows and Linux, building productive development workflows and environments."
-        },
-        {
-            "Title": "Open Source Contributions",
-            "Desc": "Participated in Hacktoberfest 2019, contributing to a variety of open source projects, including CircleCI, PublicLab, and the Accord Project."
         }
     ]
 }

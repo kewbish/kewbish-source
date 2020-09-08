@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kewbish // Developer</title>
+    <title>Kewbish // Emilie - Developer</title>
     <meta name="description" content="About Kewbish. Excited to build, develop, and create.">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
@@ -15,24 +15,24 @@
         <a href="../">
             <p>&lt; go back</p>       
         </a>
-        <h1 class="subtitle">Hey - it's Kewbish.</h1>
+        <h1 class="subtitle">Hey - it's Emilie.</h1>
         <div class="me-intro-grid">
             <div class="me-intro">
-                <p>Some people also call me Emilie Ma. I'm a resilient 14-year-old software developer, navigating through development - frontend, backend, and everything in between. I have a keen interest in automation and the web, and the intersections of both.</p>
-                <p style="margin-top: 1.5%;">See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="#projects">projects</a>.</p>
+                <p>On the internet, I go by Kewbish. I'm a 14-year-old software developer, passionate about development - frontend, backend, and everything in between. I have a keen interest in automation and the web, and the intersections of both.</p>
+                <p style="margin-top: 1.5%;">See my <a href="../Resume.pdf">resume</a>, <a href="blog">blog</a>, or <a href="../folio">projects</a>.</p>
             </div>
             <img src="../pic.png" class="me-pic">
         </div>
         <h2 class="sub-2">Experience and Awards</h2>
-        <div class="me-experience grid">
+        <div class="me-experience">
             {{ range $.Site.Data.me.Experience }}
-                <div class="grid-element">
+                <div class="me-experience-el">
                     <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
                 </div>
             {{ end }}
         </div>
         {{ with .Site.Data.me.Education }}
-            <h2 class="sub-2">Currently studying at the {{ .Name }}</h2>
+            <h2 class="sub-2">Currently studying at</h2>
             <div class="me-education">
                 <p>{{ .Bio | safeHTML }}</p>
                 <p>There, I:</p>
@@ -43,14 +43,8 @@
                 </ul>
             </div>
         {{ end }}
-        <h2 class="sub-2">I'm a constant learner</h2>
-        <div class="me-skills grid">
-            {{ range $.Site.Data.me.Skills }}
-                <p class="grid-element"><strong>{{ .Title }}</strong> - {{ .Desc | markdownify }}</p>
-            {{ end }} 
-        </div>
         <p><br>See this page in a <a href="../Resume.pdf">resume format</a>. Otherwise, see my <a href="../folio">projects.</a></p>
-        <div class="me-contact">
+        <div class="me-contact" id="contact">
             <h2 class="sub-2">Let's get in touch.</h2>
             <form action="https://formspree.io/mnqgqgyv" method="post">
                 <input type="text" name="name" placeholder="Your name">
