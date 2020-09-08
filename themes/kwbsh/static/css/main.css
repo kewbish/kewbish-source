@@ -3,8 +3,7 @@
 :root {
     --main-colour: #1E1E1E;
     --sub-colour: #323232;
-    --accent-colour: #FF9D1D;
-    --accent-two: #FFC06C;
+    --accent-colour: #888888;
     --grid-columns: 5fr 1fr 5fr;
 }
 * {
@@ -20,7 +19,7 @@ html {
     font-family: Montserrat, sans-serif;
 }
 svg {
-    fill: var(--accent-two);
+    fill: var(--accent-colour);
 }
 p, li {
     font-size: 1.2em;
@@ -121,7 +120,9 @@ a:hover {
 }
 /* me */
 .me {
-    margin: 4.5% 0;
+    padding: 4.5% 0;
+    background: linear-gradient(#1E1E1E99, #1E1E1E99), url("../Back.svg") repeat-y;
+    background-size: 100% auto;
 }
 .me-main {
     width: 75%;
@@ -133,7 +134,6 @@ a:hover {
 }
 .me-pic {
     border-radius: 50%;
-    box-shadow: 5px 5px var(--accent-colour);
     width: 60%;
     margin: -5% 0 0 5%;
 }
@@ -165,7 +165,9 @@ button {
 }
 /* folio */
 .folio {
-    margin: 4.5% 0;
+    padding: 4.5% 0;
+    background: linear-gradient(#1E1E1EAA, #1E1E1EAA), url("../Back.svg") repeat-y;
+    background-size: 100% auto;
 }
 .folio-main {
     width: 75%;
