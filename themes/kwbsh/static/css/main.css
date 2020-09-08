@@ -37,13 +37,13 @@ a:hover {
 .grid {
     display: grid;
     grid-template-columns: var(--grid-columns);
-    column-gap: 1em;
-    row-gap: 1em;
+    column-gap: 0.7em;
+    row-gap: 0.7em;
 }
 .grid-element {
     background-color: var(--sub-colour);
     padding: 1.3em;
-    border-radius: 1%;
+    border-radius: 7px;
 }
 .grid-element p {
     font-size: 1.1em;
@@ -113,11 +113,11 @@ a:hover {
 .subtitle {
     font-size: 5em;
     font-weight: 700;
-    margin-left: -1%;
+    margin: 1% 0 1% -1%;
 }
 .sub-2 {
     font-size: 3em;
-    margin: 1.5% 0;
+    margin: 2% 0;
 }
 /* me */
 .me {
@@ -135,7 +135,13 @@ a:hover {
     border-radius: 50%;
     box-shadow: 5px 5px var(--accent-colour);
     width: 60%;
-    margin: -10% 0 0 5%;
+    margin: -5% 0 0 5%;
+}
+.me-experience-el {
+    background: var(--sub-colour);
+    padding: 2.5%;
+    margin: 2% 0;
+    border-radius: 7px;
 }
 li {
     list-style-position: inside;
@@ -165,13 +171,13 @@ button {
     width: 75%;
 }
 .folio-projects {
-    margin: 2% 0;
+    margin: 2.5% 0;
 }
 .folio-uses td {
     margin: 1%;
     padding: 2%;
     background: var(--sub-colour);
-    border-radius: 1%;
+    border-radius: 7px;
 }
 .folio-uses table {
     border-spacing: 7px;
@@ -184,5 +190,41 @@ button {
     }
     .index-main-copy {
         max-width: 80%;
+    }
+    .grid {
+        grid-row-gap: 0.7em;
+    }
+    .grid-element:nth-child(4n+2),
+    .grid-element:nth-child(4n+3) {
+        grid-column: auto;
+    }
+    .grid-element:nth-last-child(1):nth-child(odd){
+        grid-column: 1 / -1;
+    }
+    .grid-element {
+        padding: 4% 5%;
+    }
+    input, textarea{
+        width: 70vw;
+    }
+    .me-intro-grid {
+        grid-template-columns: 1fr;
+    }
+    .me-pic {
+        display: none;
+    }
+    .me-experience-el {
+        margin: 5% 0;
+        padding: 5%;
+    }
+}
+@media all and (min-width: 568px) and (max-width: 768px){
+    :root{
+        --grid-columns: 1fr 1fr;
+    }
+}
+@media all and (max-width: 568px){
+    :root{
+        --grid-columns: 1fr;
     }
 }
