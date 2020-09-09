@@ -4,5 +4,4 @@ title: "Kewbish | Developer"
 theme: "kwbsh"
 relativeURLs: true
 disableKinds: ["taxonomy", "taxonomyTerm", "section"]
-# publishDir: "../site-build"
-publishDir: "public"
+publishDir: "../site-build"
