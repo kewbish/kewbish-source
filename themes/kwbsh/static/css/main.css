@@ -17,12 +17,10 @@ html {
     background-color: var(--main-colour);
     color: white;
     font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
 }
 svg {
     fill: var(--accent-colour);
-}
-p, li {
-    font-size: 1.2em;
 }
 a {
     color: white;
@@ -36,8 +34,7 @@ a:hover {
 .grid {
     display: grid;
     grid-template-columns: var(--grid-columns);
-    column-gap: 0.7em;
-    row-gap: 0.7em;
+    grid-gap: 0.7em;
 }
 .grid-element {
     background-color: var(--sub-colour);
@@ -45,7 +42,7 @@ a:hover {
     border-radius: 7px;
 }
 .grid-element p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .grid-element:nth-child(4n+2) {
     grid-column: 2 / span 2;
@@ -61,6 +58,14 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.page {
+    padding: 4.5% 0;
+    background: linear-gradient(#1E1E1E55, #1E1E1E55), url("../Back.svg") repeat-y;
+    background-size: 100% auto;
+}
+.main {
+    width: 75%;
 }
 /* index page  */
 .index {
@@ -119,14 +124,6 @@ a:hover {
     margin: 2% 0;
 }
 /* me */
-.me {
-    padding: 4.5% 0;
-    background: linear-gradient(#1E1E1E99, #1E1E1E99), url("../Back.svg") repeat-y;
-    background-size: 100% auto;
-}
-.me-main {
-    width: 75%;
-}
 .me-intro-grid {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -183,14 +180,14 @@ button {
 }
 /* mobile  */
 @media only screen and (max-width: 768px) {
+    html {
+        font-size: 1em;
+    }
     .index {
         overflow: hidden scroll;
     }
     .title {
         font-size: 5em;
-    }
-    .grid {
-        grid-row-gap: 0.7em;
     }
     .grid-element:nth-child(4n+2),
     .grid-element:nth-child(4n+3) {
