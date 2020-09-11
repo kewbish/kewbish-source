@@ -41,9 +41,6 @@ html {
     font-family: Montserrat, sans-serif;
     font-size: 1.2em;
 }
-svg {
-    fill: var(--accent-colour);
-}
 a {
     color: white;
     text-decoration: var(--accent-colour) underline;
@@ -88,52 +85,6 @@ a:hover {
 }
 .main {
     width: 75%;
-}
-/* index page  */
-.index {
-    overflow: hidden hidden;
-    background: url("../Back.svg") center no-repeat;
-    background-size: cover;
-    background-position: 0% 47%;
-    height: 100vh;
-    width: 100vw;
-}
-.index-main {
-    width: 60%;
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    margin: auto;
-}
-#salutation {
-    font-size: 1.5em;
-}
-.title {
-    font-size: 7.5em;
-    font-weight: 700;
-    margin-left: -1%; 
-}
-.index-main table {
-    width: max(15%, 130px);
-    border-spacing: 7px;
-    margin-top: 1.5%;
-    margin-left: -1%;
-}
-#main_blob {
-    transform: rotateZ(-70deg);
-    position: absolute;
-    right: -25em;
-    top: -5em;
-    width: 60%;
-    z-index: -1;
-}
-#blob {
-    transform: rotateZ(14deg);
-    position: absolute;
-    left: -10em;
-    bottom: -10em;
-    width: 30%;
-    z-index: -1;
 }
 /* subtitles */
 .subtitle {
@@ -204,12 +155,6 @@ button {
 @media only screen and (max-width: 768px) {
     html {
         font-size: 1em;
-    }
-    .index {
-        overflow: hidden scroll;
-    }
-    .title {
-        font-size: 5em;
     }
     .grid-element:nth-child(4n+2),
     .grid-element:nth-child(4n+3) {
