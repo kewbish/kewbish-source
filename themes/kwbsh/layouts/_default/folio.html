@@ -24,9 +24,9 @@
                 <p><strong>{{ .Title }}</strong></p>
                 <p>{{ .Description }}</p>
                 {{ if .Link }}
-                <p><a href="{{ .Github }}">Source</a> // <a href="{{ .Link }}">Link</a>.</p>
+                <p><a href="{{ .Github }}" target="_blank">Source</a> // <a href="{{ .Link }}" target="_blank">Link</a>.</p>
                 {{ else }}
-                <p><a href="{{ .Github }}">Source</a></p>
+                <p><a href="{{ .Github }}" target="_blank">Source</a></p>
                 {{ end }}
             </div>
             {{ end }}
