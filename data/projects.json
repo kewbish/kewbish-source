@@ -2,9 +2,9 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Blazing fast generation and all-100% Lighthouse scores.",
+            "Description": "Handcrafted with Hugo. Blazing fast generation and pretty impressive Lighthouse scores.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
-            "Link": "https://kewbish.github.io"
+            "Link": "https://kewbi.sh"
         },
         {
             "Title": "🖋️ Yours, Kewbish",
@@ -25,18 +25,18 @@
         },
         {
             "Title": "🎙️ GCIers Podcast",
-            "Description": "A monthly tech podcast featuring yours truly and several other Liquid Galaxy GCI students. We discuss tech and open source news.",
+            "Description": "A monthly tech podcast featuring several Liquid Galaxy GCI students. We discuss tech and open source news.",
             "Link": "https://www.liquidgalaxy.eu/2020/08/gciers-podcast.html"
         },
         {
             "Title": "💸 Revshare.js",
-            "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won Grant For The Web Hackathon.",
+            "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won the Grant For The Web Hackathon grand prize.",
             "Github": "https://github.com/kewbish/revshare",
             "Link": "https://kewbish.github.io/revshare/"
         },
         {
             "Title": "💵 Revshare for GitHub",
-            "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue.",
+            "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue through the Web Monetization API.",
             "Github": "https://github.com/kewbish/revshare-gh"
         },
         {
@@ -52,7 +52,7 @@
         },
         {
             "Title": "👩‍🏫 Kenna",
-            "Description": "A non-developer-friendly interface for teachers to create scalable web presences. Consider this a Obviate prototype and precursor.",
+            "Description": "A non-developer-friendly interface for teachers to create customizable, configurable web presences. Consider this a Obviate prototype and precursor.",
             "Github": "https://github.com/kewbish/kenna",
             "Link": "https://kewbish.github.io/kenna/"
         },
