@@ -2,7 +2,7 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Blazing fast generation and pretty impressive Lighthouse scores.",
+            "Description": "Handcrafted with Hugo. Blazing fast (static site) generation and pretty impressive Lighthouse scores.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
             "Link": "https://kewbi.sh"
         },
