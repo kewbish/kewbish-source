@@ -44,6 +44,7 @@ html {
 a {
     color: white;
     text-decoration: var(--accent-colour) underline;
+    -webkit-text-decoration: underline var(--accent-color);
 }
 a:hover {
     color: var(--accent-colour);
@@ -55,7 +56,7 @@ a:hover {
     grid-template-columns: var(--grid-columns);
     grid-gap: 0.7em;
 }
-.grid-element {
+.grid-element, .me-experience-el, .folio-uses {
     background-color: var(--sub-colour);
     padding: 1.3em;
     border-radius: 7px;
@@ -108,10 +109,7 @@ a:hover {
     margin: -5% 0 0 5%;
 }
 .me-experience-el {
-    background: var(--sub-colour);
-    padding: 2.5%;
     margin: 2% 0;
-    border-radius: 7px;
 }
 li {
     list-style-position: inside;
@@ -120,7 +118,7 @@ li {
 input, textarea, button{
     display: block;
     background-color: var(--sub-colour);
-    padding: 1% 1%;
+    padding: 1%;
     margin: 1% 0;
     font-size: 1em;
     font-family: Montserrat;
@@ -132,24 +130,6 @@ input, textarea, button{
 button {
     cursor: pointer;
     width: 150px;
-}
-/* folio */
-.folio {
-    padding: 4.5% 0;
-    background: linear-gradient(#1E1E1EAA, #1E1E1EAA), url("../Back.svg") repeat-y;
-    background-size: 100% auto;
-}
-.folio-main {
-    width: 75%;
-}
-.folio-projects {
-    margin: 2.5% 0;
-}
-.folio-uses {
-    padding: 3%;
-    background: var(--sub-colour);
-    border-radius: 7px;
-    width: 100%;
 }
 /* mobile  */
 @media only screen and (max-width: 768px) {
