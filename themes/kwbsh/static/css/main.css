@@ -1,5 +1,5 @@
 /* general basics  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
     --main-colour: #1E1E1E;
     --sub-colour: #323232;
@@ -90,7 +90,6 @@ a:hover {
 /* subtitles */
 .subtitle {
     font-size: 5em;
-    font-weight: 700;
     margin: 1% 0 1% -1%;
 }
 .sub-2 {
