@@ -1,0 +1,30 @@
+name: Hugo Build
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.3'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2
+        with:
+          commitMessage: ${{ github.event.head_commit.message }}
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
+          external_repository: kewbish/kewbish.github.io
+          publish_branch: master
+          user_name: 'kewbot[bot]'
+          user_email: 'kewbot[bot]@thisisnotarealdomain.com'  
