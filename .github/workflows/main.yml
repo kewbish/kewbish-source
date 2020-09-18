@@ -24,6 +24,5 @@ jobs:
         with:
           personal_token: ${{ secrets.ACCESS_TOKEN }}
           external_repository: kewbish/kewbish.github.io
-          publish_branch: master
           user_name: 'kewbot[bot]'
           user_email: 'kewbot[bot]@thisisnotarealdomain.com'  
