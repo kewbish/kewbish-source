@@ -26,3 +26,4 @@ jobs:
           external_repository: kewbish/kewbish.github.io
           user_name: 'kewbot[bot]'
           user_email: 'kewbot[bot]@thisisnotarealdomain.com'  
+          cname: kewbi.sh
