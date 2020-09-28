@@ -38,7 +38,7 @@ a:hover {
 /* index page  */
 .index {
     overflow: hidden hidden;
-    background: url("../Back.svg") center no-repeat;
+    background: linear-gradient(#1E1E1E88, #1E1E1E88), url("../Back.svg") center no-repeat;
     background-size: cover;
     background-position: 0% 47%;
     height: 100vh;

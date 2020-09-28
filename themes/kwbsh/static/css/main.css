@@ -82,7 +82,7 @@ a:hover {
 }
 .page {
     padding: 4.5% 0;
-    background: linear-gradient(#1E1E1E55, #1E1E1E55), url("../Back.svg") repeat-y;
+    background: linear-gradient(#1E1E1E88, #1E1E1E88), url("../Back.svg") repeat-y;
     background-size: 100% auto;
 }
 .main {
@@ -98,7 +98,6 @@ a:hover {
     margin: 2% 0;
 }
 /* me */
-}
 .me-experience-el {
     margin: 2% 0;
 }
