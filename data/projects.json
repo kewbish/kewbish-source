@@ -40,25 +40,30 @@
             "Github": "https://github.com/kewbish/revshare-gh"
         },
         {
+            "Title": "✏️  Blank.vim",
+            "Description": "A Vim plugin to lint prose for common English mistakes, both highlighting and removing them for easy editing access. Hyperpersonalized.",
+            "Github": "https://github.com/kewbish/blank.vim"
+        },
+        {
             "Title": "📸 Zoomy",
-            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. Super useful during the Age of Zoom.",
+            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. [archived]",
             "Github": "https://github.com/kewbish/zoomy",
             "Link": "https://pypi.org/project/zoomy/"
         },
         {
             "Title": "🤖 Justin",
-            "Description": "A command-line interface for automating common workflows and development tasks. Make getting set up easy, with useful commands.",
+            "Description": "A command-line interface for automating common workflows. Make getting set up easy. [archived]",
             "Github": "https://github.com/kewbish/justin"
         },
         {
             "Title": "👩‍🏫 Kenna",
-            "Description": "A non-developer-friendly interface for teachers to create customizable, configurable web presences. Consider this a Obviate prototype and precursor.",
+            "Description": "A non-developer-friendly interface for teachers to create configurable web presences. Consider this a Obviate prototype and precursor. [archived]",
             "Github": "https://github.com/kewbish/kenna",
             "Link": "https://kewbish.github.io/kenna/"
         },
         {
             "Title": "📓 Opus",
-            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and email report generation.",
+            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and email report generation. [archived]",
             "Github": "https://github.com/kewbish/opus"
         }
     ],

@@ -9,40 +9,39 @@
                 },
                 {
                     "Text": "lead the Hack section of Coding Club, facilitating intra-UTP hackathons and fostering a space for Coding Club to share progress on personal projects."
-                },
-                {
-                    "Text": "compete in Reach for the Top."
-                },
-                {
-                    "Text": "play in the Transition Band."
                 }
             ]
         },
     "Experience": [
         {
-            "Position": "Google Code-in",
+            "Position": "🏆 Google Code-in",
             "Date": "Dec. 2019",
-            "Description": "In 2019, I was a 🏆 [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won this worldwide competition. I'm one of Canada's ten winners to date and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
+            "Description": "In 2019, I was a [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won this worldwide competition. I'm one of Canada's ten winners to date and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
         },
         {
-            "Position": "Liquid Galaxy",
+            "Position": "🌎 Liquid Galaxy",
             "Date": "Since Feb. 2020",
-            "Description": "Intern at 🌎 [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and various other media, such as blog posts and installation tutorials. During summer 2020, I acted as a trainee mentor in several GSoC projects, as well as testing them. I've also been a part of the monthly GCIers podcast - go check it out!"
+            "Description": "Intern at [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and various other media, such as blog posts and installation tutorials. During summer 2020, I acted as a trainee mentor in several GSoC projects, as well as testing them. I've also been a part of the monthly GCIers podcast - go check it out!"
         },
         {
-            "Position": "Grant For The Web Hackathon Winner",
+            "Position": "🐋 vhHacks",
+            "Date": "Since Sept. 2020",
+            "Description": "Team member at [vhHacks](https://vhhacks.ca/), the Vancouver High School Hackathon Association. I haven't been a part of this team for long, but I'm currently helping to make little changes to the site and helping organize our Learn Day 1, where I'll be working with the Flask Workshop."
+        },
+        {
+            "Position": "💸 Grant For The Web Hackathon Winner",
             "Date": "May - Jun. 2020",
-            "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) 💸 under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS."
+            "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS."
         },
         {
-            "Position": "Canada Learning Code",
+            "Position": "🍁 Canada Learning Code",
             "Date": "Oct. 2019 - Jun. 2020",
-            "Description": "Teen Ambassador at 🇨🇦 [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and organize meetups."
+            "Description": "Teen Ambassador at [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and organize meetups."
         },
         {
-            "Position": "Vancouver Public Library",
+            "Position": "📚 Vancouver Public Library",
             "Date": "Since Sept. 2018",
-            "Description": "Teen Advisory Member at the 📙 [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend monthly youth meetings. As well, I review teen literature under the Teens Read it First program."
+            "Description": "Teen Advisory Member at the [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend monthly youth meetings. As well, I review teen literature under the Teens Read it First program."
         }
     ]
 }
