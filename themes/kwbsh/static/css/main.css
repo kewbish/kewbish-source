@@ -82,8 +82,9 @@ a:hover {
 }
 .page {
     padding: 4.5% 0;
-    background: linear-gradient(#1E1E1E88, #1E1E1E88), url("../Back.svg") repeat-y;
-    background-size: 100% auto;
+    background: linear-gradient(#1E1E1E88, #1E1E1E88), url("../Back2.svg") left, url("../Back1.svg") right;
+    background-size: 15%, 15%;
+    background-repeat: repeat-y, repeat-y;
 }
 .main {
     width: 75%;
@@ -126,6 +127,12 @@ button {
     html {
         font-size: 1em;
     }
+    p {
+        font-size: 1.2em;
+    }
+    .page {
+        background-size: 22%, 22%;
+    }
     .grid-element:nth-child(4n+2),
     .grid-element:nth-child(4n+3) {
         grid-column: auto;
@@ -135,15 +142,10 @@ button {
     }
     .grid-element {
         padding: 4% 5%;
+        font-size: 1.2em;
     }
     input, textarea{
         width: 70vw;
-    }
-    .me-intro-grid {
-        grid-template-columns: 1fr;
-    }
-    .me-pic {
-        display: none;
     }
     .me-experience-el {
         margin: 5% 0;
