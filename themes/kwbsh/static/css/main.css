@@ -1,6 +1,4 @@
 /* general basics  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz');
 :root {
     --main-colour: #1E1E1E;
     --sub-colour: #323232;
@@ -60,6 +58,9 @@ hr {
 strong {
     color: var(--accent-colour)
 }
+.strong {
+    color: white;
+}
 img {
     display: block;
     width: auto;
@@ -93,7 +94,7 @@ figure img {
     grid-template-columns: var(--grid-columns);
     grid-gap: 0.7em;
 }
-.grid-element, .me-experience-el, .folio-uses {
+.grid-element {
     background-color: var(--sub-colour);
     padding: 1.3em;
     border-radius: 7px;

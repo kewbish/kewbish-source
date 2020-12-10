@@ -15,6 +15,9 @@
     <meta property="twitter:image" content="https://i.imgur.com/QxvZ9Tv.png">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" rel="stylesheet">
 </head>
 
 <body class="cont page">
@@ -30,7 +33,7 @@
         <h2 class="sub-2">Experience and Awards</h2>
         <div class="me-experience">
             {{ range $.Site.Data.me.Experience }}
-                <div class="me-experience-el">
+                <div class="grid-element">
                     <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
                 </div>
             {{ end }}
