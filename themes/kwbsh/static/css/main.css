@@ -55,12 +55,6 @@ a:hover {
 hr {
     margin: 10px 0;
 }
-strong {
-    color: var(--accent-colour)
-}
-.strong {
-    color: white;
-}
 img {
     display: block;
     width: auto;
@@ -136,7 +130,7 @@ figure img {
     margin: 2% 0;
 }
 /* me */
-.me-experience-el {
+.me-el {
     margin: 2% 0;
 }
 li {
@@ -173,6 +167,9 @@ button {
     top: 45%;
     transform: translateY(-50%);
     margin: auto;
+}
+#salutation {
+    font-size: 1.5em;
 }
 .title {
     font-size: 7.5em;

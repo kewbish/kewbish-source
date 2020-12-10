@@ -31,7 +31,7 @@
         <div class="folio-projects grid" style="margin: 2.5% 0;">
             {{ range $.Site.Data.projects.Projects }}
             <div class="grid-element">
-                <p><strong class="strong">{{ .Title }}</strong></p>
+                <p><strong>{{ .Title }}</strong></p>
                 <p>{{ .Description }}</p>
                 {{ if .Link }}
                 <p><a href="{{ .Github }}" target="_blank">Source</a> // <a href="{{ .Link }}" target="_blank">Link</a>.</p>

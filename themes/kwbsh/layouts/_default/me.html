@@ -33,7 +33,7 @@
         <h2 class="sub-2">Experience and Awards</h2>
         <div class="me-experience">
             {{ range $.Site.Data.me.Experience }}
-                <div class="grid-element">
+                <div class="grid-element me-el">
                     <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
                 </div>
             {{ end }}
