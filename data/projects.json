@@ -10,7 +10,7 @@
             "Title": "🖋️ Yours, Kewbish",
             "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. RSS feed included.",
             "Github": "https://github.com/kewbish/blog",
-            "Link": "https://kewbish.github.io/blog"
+            "Link": "https://kewbi.sh/blog"
         },
         {
             "Title": "🌊 DiveIntoHT.ML",
@@ -19,25 +19,31 @@
             "Link": "https://diveintoht.ml"
         },
         {
+            "Title": "⚛️  Matter",
+            "Description": "A minimalist RSS reader and bookmarking tool, built with vanilla JS and GitHub integrations. Meant as a personal replacement for clunky readers.",
+            "Github": "https://github.com/kewbish/matter/",
+            "Link": "https://kewbi.sh/matter/"
+        },
+        {
             "Title": "🔮 Obviate",
             "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
             "GitHub": "https://github.com/kewbish/obviate-src"
         },
         {
-            "Title": "🎙️ GCIers Podcast",
-            "Description": "A monthly tech podcast featuring several Liquid Galaxy GCI students. We discuss tech and open source news.",
-            "Link": "https://www.liquidgalaxy.eu/2020/08/gciers-podcast.html"
-        },
-        {
             "Title": "💸 Revshare.js",
             "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won the Grant For The Web Hackathon grand prize.",
             "Github": "https://github.com/kewbish/revshare",
-            "Link": "https://kewbish.github.io/revshare/"
+            "Link": "https://kewbi.sh/revshare/"
         },
         {
             "Title": "💵 Revshare for GitHub",
             "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue through the Web Monetization API.",
             "Github": "https://github.com/kewbish/revshare-gh"
+        },
+        {
+            "Title": "🎮 rack8",
+            "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
+            "Github": "https://github.com/kewbish/rack8"
         },
         {
             "Title": "✏️  Blank.vim",
@@ -59,7 +65,7 @@
             "Title": "👩‍🏫 Kenna",
             "Description": "A non-developer-friendly interface for teachers to create configurable web presences. Consider this a Obviate prototype and precursor. [archived]",
             "Github": "https://github.com/kewbish/kenna",
-            "Link": "https://kewbish.github.io/kenna/"
+            "Link": "https://kewbi.sh/kenna/"
         },
         {
             "Title": "📓 Opus",
@@ -69,7 +75,7 @@
     ],
     "Uses": {
         "Languages": [
-            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Bash"
+            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Bash"
         ]
     }
 }
