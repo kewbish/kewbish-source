@@ -45,9 +45,7 @@
         <div class="grid-element">
             {{ with $.Site.Data.projects.Uses }}
             <p>
-                {{ range .Languages  }}
-                 {{ . | markdownify }} //
-                {{ end }}
+                {{ delimit .Languages " // " | markdownify }}
             </p>
             {{ end }}
         </div>

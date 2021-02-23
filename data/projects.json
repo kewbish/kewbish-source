@@ -8,7 +8,7 @@
         },
         {
             "Title": "🖋️ Yours, Kewbish",
-            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. RSS feed included.",
+            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~70k words written so far.",
             "Github": "https://github.com/kewbish/blog",
             "Link": "https://kewbi.sh/blog"
         },
@@ -23,11 +23,6 @@
             "Description": "A minimalist RSS reader and bookmarking tool, built with vanilla JS and GitHub integrations. Meant as a personal replacement for clunky readers.",
             "Github": "https://github.com/kewbish/matter/",
             "Link": "https://kewbi.sh/matter/"
-        },
-        {
-            "Title": "🔮 Obviate",
-            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
-            "GitHub": "https://github.com/kewbish/obviate-src"
         },
         {
             "Title": "💸 Revshare.js",
@@ -46,8 +41,13 @@
             "Github": "https://github.com/kewbish/rack8"
         },
         {
+            "Title": "🔮 Obviate",
+            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
+            "GitHub": "https://github.com/kewbish/obviate-src"
+        },
+        {
             "Title": "✏️  Blank.vim",
-            "Description": "A Vim plugin to lint prose for common English mistakes, both highlighting and removing them for easy editing access. Hyperpersonalized.",
+            "Description": "A Vim plugin to lint prose for common English mistakes, both highlighting and removing them for easy editing access.",
             "Github": "https://github.com/kewbish/blank.vim"
         },
         {
@@ -55,27 +55,11 @@
             "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. [archived]",
             "Github": "https://github.com/kewbish/zoomy",
             "Link": "https://pypi.org/project/zoomy/"
-        },
-        {
-            "Title": "🤖 Justin",
-            "Description": "A command-line interface for automating common workflows. Make getting set up easy. [archived]",
-            "Github": "https://github.com/kewbish/justin"
-        },
-        {
-            "Title": "👩‍🏫 Kenna",
-            "Description": "A non-developer-friendly interface for teachers to create configurable web presences. Consider this a Obviate prototype and precursor. [archived]",
-            "Github": "https://github.com/kewbish/kenna",
-            "Link": "https://kewbi.sh/kenna/"
-        },
-        {
-            "Title": "📓 Opus",
-            "Description": "A Kivy-based mobile app for book tracking. Built-in author-fill and email report generation. [archived]",
-            "Github": "https://github.com/kewbish/opus"
         }
     ],
     "Uses": {
         "Languages": [
-            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, NPM, Node.js", "**Web** - HTML, CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Bash"
+            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, Node.js", "**Web** - HTML/CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Vim + Vimscript"
         ]
     }
 }
