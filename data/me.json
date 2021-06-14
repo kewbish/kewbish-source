@@ -1,16 +1,14 @@
 {
     "Education": 
         {
-            "Name": "University Transition Program",
-            "Bio": "The <a href=\"https://universitytransition.ca\">University Transition Program</a> is a radically accelerated environment with the goal of early entrance into university - specifically <a href=\"https://ubc.ca\">UBC</a>.<br>I'm currently in the second year of the program, and am entering UBC at age 15.",
+            "Name": "UBC",
+            "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a first-year planning to pursue either an Honours Degree in Computer Science from the Faculty of Science, or a Combined Honours in Computer Science and Maths or Statistics.",
             "Activities": [
                 {
-                    "Text": "co-lead Coding Club, guiding peers into the basics of Python and cryptography skills. I've taught problem-solving and organized lessons for basics of contest programming problems."
-                },
-                {
-                    "Text": "lead the Hack section of Coding Club, facilitating intra-UTP hackathons and fostering a space for Coding Club to share progress on personal projects."
+                    "Text": "am one of the ten <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally."
                 }
-            ]
+            ],
+            "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
         },
     "Experience": [
         {
@@ -29,16 +27,16 @@
             "Description": "Intern at [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and various other media, such as blog posts and installation tutorials. During summer 2020, I acted as a trainee mentor in several GSoC projects, as well as testing them." },
         {
             "Position": "🐋 vhHacks",
-            "Date": "Since Sept. 2020",
+            "Date": "Since Sep. 2020",
             "Description": "Team member at [vhHacks](https://vhhacks.ca/), the Vancouver High School Hackathon Association. I'm currently working on several Learn Day workshops and developing fun tooling for our 2021 hackathon."},
         {
             "Position": "🍁 Canada Learning Code",
-            "Date": "Since Oct. 2019.",
+            "Date": "Oct. 2019 - Jun. 2021",
             "Description": "Teen Ambassador at [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and learned effective mentorship skills."
         },
         {
             "Position": "📚 Vancouver Public Library",
-            "Date": "Since Sept. 2018",
+            "Date": "Sep. 2018 - Jun. 2021",
             "Description": "Teen Advisory Member at the [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend biweekly youth meetings." }
     ]
 }

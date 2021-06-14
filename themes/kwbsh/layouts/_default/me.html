@@ -39,15 +39,19 @@
             {{ end }}
         </div>
         {{ with .Site.Data.me.Education }}
-            <h2 class="sub-2">Currently studying at</h2>
+            <h2 class="sub-2">Currently studying at {{ .Name }}</h2>
             <div class="me-education">
                 <p>{{ .Bio | safeHTML }}</p>
+                {{ if isset . "Activities" }}
                 <p>There, I:</p>
                 <ul>
                     {{ range .Activities }}
                     <li>{{ .Text | safeHTML }}</li>
                     {{ end }}
                 </ul>
+                {{ end }}
+                <br>
+                <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>
             </div>
         {{ end }}
         <p><br>See this page in a <a href="../Resume.pdf">résumé format</a>. Otherwise, see my <a href="../folio">projects.</a></p>
