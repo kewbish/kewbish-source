@@ -41,6 +41,19 @@
             </div>
             {{ end }}
         </div>
+        <h2 class="sub-2">My talks:</h2>
+        <div class="folio-talks grid" style="margin: 2.5% 0;">
+            {{ range $.Site.Data.projects.Talks }}
+            <div class="grid-element">
+                <p><strong>{{ .Title }}</strong></p>
+                <p>{{ .Description | markdownify }}
+                    {{ if .Link }}
+                    (<a href="{{ .Link }}" target="_blank">Link to talk</a>)
+                    {{ end }}
+                </p>
+            </div>
+            {{ end }}
+        </div>
         <h2 class="sub-2">I use:</h2>
         <div class="grid-element">
             {{ with $.Site.Data.projects.Uses }}
