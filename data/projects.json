@@ -2,7 +2,7 @@
     "Projects": [
         {
             "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Blazing fast (static site) generation and pretty impressive Lighthouse scores.",
+            "Description": "Handcrafted with Hugo. Blazing fast static generation and pretty impressive Lighthouse scores.",
             "Github": "https://github.com/kewbish/kewbish.github.io",
             "Link": "https://kewbi.sh"
         },
@@ -11,6 +11,12 @@
             "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~70k words written so far.",
             "Github": "https://github.com/kewbish/blog",
             "Link": "https://kewbi.sh/blog"
+        },
+        {
+            "Title": "🔬 Primality Testing",
+            "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant. Supervised by Ms. Pressiana Marinova, B.A Mathematics Cambridge.",
+            "Github": "https://github.com/kewbish/srs",
+            "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
         },
         {
             "Title": "🌊 DiveIntoHT.ML",
@@ -39,22 +45,13 @@
             "Title": "🎮 rack8",
             "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
             "Github": "https://github.com/kewbish/rack8"
-        },
+        }
+    ],
+    "Talks": [
         {
-            "Title": "🔮 Obviate",
-            "Description": "A Vue-based webapp utilizing the power of GitHub's APIs, making static site generation and configuration simple for non-techies.",
-            "GitHub": "https://github.com/kewbish/obviate-src"
-        },
-        {
-            "Title": "✏️  Blank.vim",
-            "Description": "A Vim plugin to lint prose for common English mistakes, both highlighting and removing them for easy editing access.",
-            "Github": "https://github.com/kewbish/blank.vim"
-        },
-        {
-            "Title": "📸 Zoomy",
-            "Description": "A minimalist Zoom utility for the terminal, including aliases and streamlined meeting access. [archived]",
-            "Github": "https://github.com/kewbish/zoomy",
-            "Link": "https://pypi.org/project/zoomy/"
+            "Title": "🧠 Augment Minds 2021",
+            "Description": "An (un)conference on advancing technologies in the tools for thought space, and delightful innovations in HCI for complementing thought. Delivered a lightning talk on a plaintext Zettelkasten system and my toolkit of choice: Vim, FZF, RipGrep, and Ctags.",
+            "Link": "https://kewbi.sh/blog/posts/210815/"
         }
     ],
     "Uses": {
