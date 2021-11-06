@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kewbish // Emilie - Developer</title>
+        <meta
+            name="description"
+            content="About Kewbish. Excited to build, develop, and create."
+        />
+        <meta property="og:title" content="Kewbish // Emilie - About" />
+        <meta
+            property="og:description"
+            content="About Kewbish. Excited to build, develop, and create."
+        />
+        <meta property="og:image" content="https://i.imgur.com/QxvZ9Tv.png" />
+        <meta property="og:url" content="https://kewbi.sh/me/" />
+        <meta
+            property="twitter:title"
+            content="Kewbish // Emilie - Developer"
+        />
+        <meta
+            property="twitter:description"
+            content="About Kewbish. Excited to build, develop, and create."
+        />
+        <meta
+            property="twitter:image"
+            content="https://i.imgur.com/QxvZ9Tv.png"
+        />
+        <link rel="stylesheet" href="{{ .Site.Params.cssLink }}" />
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kewbish // Emilie - Developer</title>
-    <meta name="description" content="About Kewbish. Excited to build, develop, and create.">
-    <meta property="og:title" content="Kewbish // Emilie - About">
-    <meta property="og:description" content="About Kewbish. Excited to build, develop, and create.">
-    <meta property="og:image" content="https://i.imgur.com/QxvZ9Tv.png">
-    <meta property="og:url" content="https://kewbi.sh/me/">
-    <meta property="twitter:title" content="Kewbish // Emilie - Developer">
-    <meta property="twitter:description" content="About Kewbish. Excited to build, develop, and create.">
-    <meta property="twitter:image" content="https://i.imgur.com/QxvZ9Tv.png">
-    <link rel="stylesheet" href="{{ .Site.Params.cssLink }}">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" rel="stylesheet">
-</head>
-
-<body class="cont page">
-    <div class="main">
-        <a href="../">
-            <p>&lt; go back</p>       
-        </a>
-        <h1 class="subtitle">Hey - it's Emilie.</h1>
-        <div class="me-intro">
-            <p>You probably know me as Kewbish, somewhere on the web. I'm a student software developer, passionate about the web - including the frontend, backend, and everything in between.</p>
-            <p style="margin-top: 1.5%;">See my <a href="../Resume.pdf">résumé</a>, <a href="../blog">blog</a>, or <a href="../folio">projects</a>.</p>
-        </div>
-        <h2 class="sub-2">Experience and Awards</h2>
-        <div class="me-experience">
-            {{ range $.Site.Data.me.Experience }}
+    <body class="cont page">
+        <div class="main">
+            <a href="../">
+                <p>&lt; go back</p>
+            </a>
+            <h1 class="subtitle">Hey - it's Emilie.</h1>
+            <div class="me-intro">
+                <p>
+                    You probably know me as Kewbish. I'm a student software
+                    developer, especially passionate about the web - including
+                    the frontend, backend, and everything in between.
+                </p>
+                <p style="margin-top: 1.5%">
+                    See my <a href="../Resume.pdf">résumé</a>,
+                    <a href="../blog">blog</a>, or
+                    <a href="../folio">projects</a>.
+                </p>
+            </div>
+            <h2 class="sub-2">Experience and Awards</h2>
+            <div class="me-experience">
+                {{ range $.Site.Data.me.Experience }}
                 <div class="grid-element me-el">
-                    <p><strong>{{ .Position }}</strong><br><em>{{ .Date }}</em><br>{{ .Description | markdownify }}</p>
+                    <p>
+                        <strong>{{ .Position }}</strong><br /><em
+                            >{{ .Date }}</em
+                        ><br />{{ .Description | markdownify }}
+                    </p>
                 </div>
-            {{ end }}
-        </div>
-        {{ with .Site.Data.me.Education }}
+                {{ end }}
+            </div>
+            {{ with .Site.Data.me.Education }}
             <h2 class="sub-2">Currently studying at {{ .Name }}</h2>
             <div class="me-education">
                 <p>{{ .Bio | safeHTML }}</p>
@@ -50,22 +82,33 @@
                     {{ end }}
                 </ul>
                 {{ end }}
-                <br>
+                <br />
                 <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>
             </div>
-        {{ end }}
-        <p><br>See this page in a <a href="../Resume.pdf">résumé format</a>. Otherwise, see my <a href="../folio">projects.</a></p>
-        <div class="me-contact" id="contact">
-            <h2 class="sub-2">Let's get in touch.</h2>
-            <form action="https://formspree.io/mnqgqgyv" method="post">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="email" name="email" placeholder="📧 Your email">
-                <textarea name="message" cols="30" rows="10"
-                    placeholder="Let's chat."></textarea>
-                <button type="submit">Submit.</button>
-            </form>
+            {{ end }}
+            <p>
+                <br />See this page in a
+                <a href="../Resume.pdf">résumé format</a>. Otherwise, see my
+                <a href="../folio">projects.</a>
+            </p>
+            <div class="me-contact" id="contact">
+                <h2 class="sub-2">Let's get in touch.</h2>
+                <form action="https://formspree.io/mnqgqgyv" method="post">
+                    <input type="text" name="name" placeholder="Your name" />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="📧 Your email"
+                    />
+                    <textarea
+                        name="message"
+                        cols="30"
+                        rows="10"
+                        placeholder="Let's chat."
+                    ></textarea>
+                    <button type="submit">Submit.</button>
+                </form>
+            </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
