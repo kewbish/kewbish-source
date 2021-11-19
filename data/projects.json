@@ -1,14 +1,8 @@
 {
     "Projects": [
         {
-            "Title": "🌐 This site",
-            "Description": "Handcrafted with Hugo. Blazing fast static generation and pretty impressive Lighthouse scores.",
-            "Github": "https://github.com/kewbish/kewbish.github.io",
-            "Link": "https://kewbi.sh"
-        },
-        {
             "Title": "🖋️ Yours, Kewbish",
-            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~70k words written so far.",
+            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~105k words written so far.",
             "Github": "https://github.com/kewbish/blog",
             "Link": "https://kewbi.sh/blog"
         },
@@ -42,6 +36,12 @@
             "Github": "https://github.com/kewbish/revshare-gh"
         },
         {
+            "Title": "🗽 Liberty",
+            "Description": "A Terminal User Interface built to bring the Leitner box space repetition technique to the terminal. Implements a text-based SRS system with open-ended question features.",
+            "Github": "https://github.com/kewbish/liberty",
+            "Link": "https://pypi.org/project/liberty-tui/"
+        },
+        {
             "Title": "🎮 rack8",
             "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
             "Github": "https://github.com/kewbish/rack8"
@@ -56,7 +56,7 @@
     ],
     "Uses": {
         "Languages": [
-            "**Python** - Flask, Click, Kivy", "**JS** - ES6, Vue.js, Node.js", "**Web** - HTML/CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Vim + Vimscript"
+            "**Python** - Flask, Click, Kivy", "**JS** - Vue.js, React.js, Node.js", "**Web** - HTML/CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Vim + Vimscript"
         ]
     }
 }
