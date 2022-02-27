@@ -3,25 +3,22 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Kewbish // Emilie - Developer</title>
+        <title>Kewbish ⇋ Emilie - Developer</title>
         <meta
             name="description"
             content="Kewbish's projects and portfolio. Excited to build, develop, and create."
         />
-        <meta property="og:title" content="Kewbish // Emilie - Developer" />
+        <meta property="og:title" content="Kewbish ⇋ Emilie - Developer" />
         <meta
             property="og:description"
-            content="Kewbish's projects. Excited to build, develop, and create."
+            content="Kewbish's projects and portfolio. Excited to build, develop, and create."
         />
         <meta property="og:image" content="https://i.imgur.com/QxvZ9Tv.png" />
         <meta property="og:url" content="https://kewbi.sh/folio/" />
-        <meta
-            property="twitter:title"
-            content="Kewbish // Emilie - Developer"
-        />
+        <meta property="twitter:title" content="Kewbish ⇋ Emilie - Developer" />
         <meta
             property="twitter:description"
-            content="Kewbish's projects. Excited to build, develop, and create."
+            content="Kewbish's projects and portfolio. Excited to build, develop, and create."
         />
         <meta
             property="twitter:image"
@@ -52,7 +49,7 @@
             </p>
             <p style="margin-bottom: 2%">
                 You might also want to read <a href="../me">about me</a>,
-                <a href="../Resume.pdf">my résumé</a>, or
+                <a href="../Resume.pdf">my resume</a>, or
                 <a href="../blog">more about my projects</a>.
             </p>
             <div class="folio-projects grid" style="margin: 2.5% 0">
@@ -62,7 +59,7 @@
                     <p>{{ .Description }}</p>
                     {{ if .Link }}
                     <p>
-                        <a href="{{ .Github }}" target="_blank">Source</a> //
+                        <a href="{{ .Github }}" target="_blank">Source</a> ∘
                         <a href="{{ .Link }}" target="_blank">Link</a>.
                     </p>
                     {{ else }}
@@ -89,7 +86,7 @@
             <h2 class="sub-2">I use:</h2>
             <div class="grid-element">
                 {{ with $.Site.Data.projects.Uses }}
-                <p>{{ delimit .Languages " // " | markdownify }}</p>
+                <p>{{ delimit .Languages " ∘ " | markdownify }}</p>
                 {{ end }}
             </div>
         </div>
