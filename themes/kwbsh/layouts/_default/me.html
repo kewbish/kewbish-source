@@ -1,109 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>About Emilie ⇋ Kewbish</title>
-        <meta
-            name="description"
-            content="About Emilie Ma (Kewbish). Excited to build, develop, and create."
-        />
-        <meta property="og:title" content="About Emilie ⇋ Kewbish" />
-        <meta
-            property="og:description"
-            content="About Emilie Ma (Kewbish). Excited to build, develop, and create."
-        />
-        <meta property="og:url" content="https://kewbi.sh/me/" />
-        <meta property="twitter:title" content="About Emilie ⇋ Kewbish" />
-        <meta
-            property="twitter:description"
-            content="About Emilie Ma (Kewbish). Excited to build, develop, and create."
-        />
-        <link
-            rel="icon"
-            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><style>text{filter: grayscale(1) brightness(80%) contrast(200%);}</style><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>"
-        />
-        <link rel="stylesheet" href="{{ .Site.Params.cssLink }}" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-            rel="stylesheet"
-        />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Emilie // Kewbish</title>
+    <meta
+      name="description"
+      content="About Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <meta property="og:title" content="About Emilie // Kewbish" />
+    <meta
+      property="og:description"
+      content="About Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <meta property="og:url" content="https://kewbi.sh/me/" />
+    <meta property="twitter:title" content="About Emilie // Kewbish" />
+    <meta
+      property="twitter:description"
+      content="About Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="google-site-verification"
+      content="nCqg0YzSxnpcnoFKQq8A2VJCpuSBSdJpKefPxK8AWbA"
+    />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="{{ .Site.Params.cssLink }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Source+Sans+3&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body class="cont page">
-        <div class="main">
-            <a href="../">
-                <p>&lt; go back</p>
-            </a>
-            <h1 class="subtitle">Hi - I'm Emilie.</h1>
-            <div class="me-intro">
-                <p>
-                    You probably know me as Kewbish. I'm a student software
-                    developer, especially passionate about the web, personal
-                    knowledge management, and human-computer interaction.
-                </p>
-                <p style="margin-top: 1.5%">
-                    See my <a href="../Resume.pdf">resume</a>,
-                    <a href="../blog">blog</a>, or
-                    <a href="../folio">projects</a>.
-                </p>
-            </div>
-            <h2 class="sub-2">Experience and Awards</h2>
-            <div class="me-experience">
-                {{ range $.Site.Data.me.Experience }}
-                <div class="grid-element me-el">
-                    <p>
-                        <strong>{{ .Position }}</strong><br /><em
-                            >{{ .Date }}</em
-                        ><br />{{ .Description | markdownify }}
-                    </p>
-                </div>
-                {{ end }}
-            </div>
-            {{ with .Site.Data.me.Education }}
-            <h2 class="sub-2">Currently studying at {{ .Name }}</h2>
-            <div class="me-education">
-                <p>{{ .Bio | safeHTML }}</p>
-                {{ if isset . "Activities" }}
-                <p>There, I:</p>
-                <ul>
-                    {{ range .Activities }}
-                    <li>{{ .Text | safeHTML }}</li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-                <br />
-                <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>
-            </div>
-            {{ end }}
-            <p>
-                <br />See this page in a
-                <a href="../Resume.pdf">resume format</a>. Otherwise, see my
-                <a href="../folio">projects.</a>
-            </p>
-            <div class="me-contact" id="contact">
-                <h2 class="sub-2">Let's get in touch.</h2>
-                <form action="https://formspree.io/mnqgqgyv" method="post">
-                    <input type="text" name="name" placeholder="Your name" />
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="📧 Your email"
-                    />
-                    <textarea
-                        name="message"
-                        cols="30"
-                        rows="10"
-                        placeholder="Let's chat."
-                    ></textarea>
-                    <button type="submit">Submit.</button>
-                </form>
-            </div>
+  <body class="cont page">
+    <div class="main">
+      <a href="../">
+        <p>&lt; go back</p>
+      </a>
+      <h1 class="subtitle secondary-display-title display-title">
+        Hi - I'm Emilie.
+      </h1>
+      <div class="me-intro">
+        <p>
+          You probably know me as Kewbish. I'm a student software developer,
+          especially passionate about the web, personal knowledge management,
+          and human-computer interaction.
+        </p>
+        <p style="margin-top: 1.5%">
+          See my <a href="../Resume.pdf">resume</a>, <a href="../blog">blog</a>,
+          or <a href="../folio">projects</a>.
+        </p>
+      </div>
+      <h2 class="sub-2">Experience and Awards</h2>
+      <div class="me-experience">
+        {{ range $.Site.Data.me.Experience }}
+        <div class="grid-element me-el">
+          <p>
+            <strong>{{ .Position }}</strong><br /><em>{{ .Date }}</em><br />{{
+            .Description | markdownify }}
+          </p>
         </div>
-    </body>
+        {{ end }}
+      </div>
+      {{ with .Site.Data.me.Education }}
+      <h2 class="sub-2">Currently studying at {{ .Name }}</h2>
+      <div class="me-education">
+        <p>{{ .Bio | safeHTML }}</p>
+        {{ if isset . "Activities" }}
+        <p>There, I:</p>
+        <ul>
+          {{ range .Activities }}
+          <li>{{ .Text | safeHTML }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        <br />
+        <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>
+      </div>
+      {{ end }}
+      <p>
+        <br />See this page in a <a href="../Resume.pdf">resume format</a>.
+        Otherwise, see my
+        <a href="../folio">projects.</a>
+      </p>
+      <div class="me-contact" id="contact">
+        <h2 class="sub-2">Let's get in touch.</h2>
+        <form action="https://formspree.io/mnqgqgyv" method="post">
+          <input type="text" name="name" placeholder="Your name" />
+          <input type="email" name="email" placeholder="📧 Your email" />
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Let's chat."
+          ></textarea>
+          <button type="submit">Submit.</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
