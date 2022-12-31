@@ -11,7 +11,7 @@
   padding: 0;
 }
 ::selection {
-  background-color: var(--accent-colour);
+  background-color: var(--dark-accent-colour);
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -100,6 +100,8 @@ h1 {
   text-fill-color: transparent;
   background-blend-mode: screen, darken, normal;
   width: fit-content;
+  filter: drop-shadow(1px 3px 3px rgba(189, 140, 219, 0.5));
+  -webkit-filter: drop-shadow(1px 3px 3px rgba(189, 140, 219, 0.5));
 }
 h2,
 h3,
@@ -107,6 +109,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+  font-style: italic;
   font-weight: 400;
 }
 svg {
@@ -161,9 +164,15 @@ figure img {
   grid-gap: 0.7em;
 }
 .grid-element {
-  background-color: var(--sub-colour);
-  padding: 1.3em;
-  border-radius: 7px;
+  background: linear-gradient(
+    139.94deg,
+    rgba(255, 255, 255, 0.132) 26.92%,
+    rgba(179, 160, 222, 0.4) 101.38%
+  );
+  backdrop-filter: blur(4px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 1.5rem;
 }
 .grid-element p {
   font-size: 1em;
@@ -201,10 +210,10 @@ figure img {
   margin: 2% 0;
 }
 .me-el {
-  margin: 2% 0;
+  margin: 1rem 0;
 }
 li {
-  list-style-position: inside;
+  list-style-position: outside;
   margin-left: 1%;
 }
 button,
@@ -233,22 +242,21 @@ button {
   background-size: 15%, 15%;
   height: 100vh;
   width: 100vw;
+  display: flex;
 }
 .index-main {
   width: 60%;
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-  margin: auto;
+  margin-top: -5rem;
 }
 #salutation {
   font-size: 1.5em;
-  margin-bottom: -1em;
 }
 .title {
   font-size: 7.5em;
   font-weight: 700;
   margin-left: -1%;
+  line-height: 100%;
+  margin-bottom: 1.5rem;
 }
 .index-main table {
   width: max(15%, 130px);
@@ -256,22 +264,27 @@ button {
   border-collapse: collapse;
 }
 .index-main table tr td {
-  padding-right: 0.2em;
+  padding-right: 0.5rem;
 }
 #index-name {
-  display: flex;
-  flex-direction: row;
-  align-items: end;
   filter: drop-shadow(1px 3px 3px rgba(189, 140, 219, 0.5));
   -webkit-filter: drop-shadow(1px 3px 3px rgba(189, 140, 219, 0.5));
+  display: inline-block;
 }
 #sparkles {
-  transform: translateY(-50%);
-  margin-left: 0.5em;
+  display: inline;
+}
+.mt-1 {
+  margin-top: 0.5rem;
 }
 @media only screen and (max-width: 768px) {
   html {
     font-size: 1em;
+  }
+  #index-name,
+  .secondary-display-title {
+    filter: none;
+    -webkit-filter: none;
   }
   li,
   p {
@@ -327,7 +340,14 @@ button {
     --grid-columns: minmax(0, 1fr);
   }
   .index-main {
-    transform: translateY(5%);
+    margin-top: -8rem;
+  }
+  #index-name {
+    margin: 1rem 0;
+  }
+  #sparkles {
+    margin-bottom: -0.5rem;
+    width: 4rem;
   }
 }
 /*  --- new css ---  */

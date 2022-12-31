@@ -42,13 +42,14 @@
       <h1 class="subtitle secondary-display-title display-title">
         Hi - I'm Emilie.
       </h1>
+      <div class="grounded-radiants"></div>
       <div class="me-intro">
-        <p>
+        <p class="mt-1">
           You probably know me as Kewbish. I'm a student software developer,
           especially passionate about the web, personal knowledge management,
           and human-computer interaction.
         </p>
-        <p style="margin-top: 1.5%">
+        <p class="mt-1">
           See my <a href="../Resume.pdf">resume</a>, <a href="../blog">blog</a>,
           or <a href="../folio">projects</a>.
         </p>
@@ -58,33 +59,32 @@
         {{ range $.Site.Data.me.Experience }}
         <div class="grid-element me-el">
           <p>
-            <strong>{{ .Position }}</strong><br /><em>{{ .Date }}</em><br />{{
-            .Description | markdownify }}
+            <strong>{{ .Position }}</strong>
           </p>
+          {{with .Date}}
+          <p><em>{{ . }}</em></p>
+          {{end}}
+          <p class="mt-1">{{ .Description | markdownify }}</p>
         </div>
         {{ end }}
       </div>
       {{ with .Site.Data.me.Education }}
-      <h2 class="sub-2">Currently studying at {{ .Name }}</h2>
-      <div class="me-education">
+      <h2 class="sub-2">Currently studying at: {{ .Name }}</h2>
+      <div class="me-education grid-element">
         <p>{{ .Bio | safeHTML }}</p>
         {{ if isset . "Activities" }}
-        <p>There, I:</p>
+        <p class="mt-1">There, I:</p>
         <ul>
           {{ range .Activities }}
           <li>{{ .Text | safeHTML }}</li>
           {{ end }}
         </ul>
         {{ end }}
+        <!--
         <br />
-        <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>
+        <p><em>Previously</em>, {{ .Previously | safeHTML }}</p>-->
       </div>
       {{ end }}
-      <p>
-        <br />See this page in a <a href="../Resume.pdf">resume format</a>.
-        Otherwise, see my
-        <a href="../folio">projects.</a>
-      </p>
       <div class="me-contact" id="contact">
         <h2 class="sub-2">Let's get in touch.</h2>
         <form action="https://formspree.io/mnqgqgyv" method="post">
