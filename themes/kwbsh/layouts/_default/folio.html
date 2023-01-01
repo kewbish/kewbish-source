@@ -1,92 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Work by Emilie ⇋ Kewbish</title>
-        <meta
-            name="description"
-            content="Emilie Ma's (Kewbish's) projects and portfolio. Excited to build, develop, and create."
-        />
-        <meta property="og:title" content="Work by Emilie ⇋ Kewbish" />
-        <meta
-            property="og:description"
-            content="Emilie Ma's (Kewbish's) projects and portfolio. Excited to build, develop, and create."
-        />
-        <meta property="og:url" content="https://kewbi.sh/folio/" />
-        <meta property="twitter:title" content="Work by Emilie ⇋ Kewbish" />
-        <meta
-            property="twitter:description"
-            content="Emilie Ma's (Kewbish's) projects and portfolio. Excited to build, develop, and create."
-        />
-        <link rel="stylesheet" href="{{ .Site.Params.cssLink }}" />
-        <link
-            rel="icon"
-            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><style>text{filter: grayscale(1) brightness(80%) contrast(200%);}</style><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>"
-        />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-            rel="stylesheet"
-        />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work by Emilie // Kewbish</title>
+    <meta
+      name="description"
+      content="Work by Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <meta property="og:title" content="Work by Emilie // Kewbish" />
+    <meta
+      property="og:description"
+      content="Work by Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <meta property="og:url" content="https://kewbi.sh/folio/" />
+    <meta property="twitter:title" content="Work by Emilie // Kewbish" />
+    <meta
+      property="twitter:description"
+      content="Work by Emilie Ma (Kewbish), a student + software developer in Vancouver, Canada."
+    />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="{{ .Site.Params.cssLink }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Source+Sans+3&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body class="cont page">
-        <div class="main">
-            <a href="../">
-                <p>&lt; go back</p>
-            </a>
-            <h1 class="subtitle">My projects.</h1>
-            <p>
-                Interested in working together?
-                <a href="../me#contact">Get in touch</a>.
-            </p>
-            <p style="margin-bottom: 2%">
-                You might also want to read <a href="../me">about me</a>,
-                <a href="../Resume.pdf">my resume</a>, or
-                <a href="../blog">more about my projects</a>.
-            </p>
-            <div class="folio-projects grid" style="margin: 2.5% 0">
-                {{ range $.Site.Data.projects.Projects }}
-                <div class="grid-element">
-                    <p><strong>{{ .Title }}</strong></p>
-                    <p>{{ .Description }}</p>
-                    {{ if .Link }}
-                    <p>
-                        <a href="{{ .Github }}" target="_blank">Source</a> ∘
-                        <a href="{{ .Link }}" target="_blank">Link</a>.
-                    </p>
-                    {{ else }}
-                    <p><a href="{{ .Github }}" target="_blank">Source</a></p>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-            <h2 class="sub-2">My talks:</h2>
-            <div class="folio-talks grid" style="margin: 2.5% 0">
-                {{ range $.Site.Data.projects.Talks }}
-                <div class="grid-element">
-                    <p><strong>{{ .Title }}</strong></p>
-                    <p>
-                        {{ .Description | markdownify }} {{ if .Link }} (<a
-                            href="{{ .Link }}"
-                            target="_blank"
-                            >Link to talk</a
-                        >) {{ end }}
-                    </p>
-                </div>
-                {{ end }}
-            </div>
-            <h2 class="sub-2">I use:</h2>
-            <div class="grid-element">
-                {{ with $.Site.Data.projects.Uses }}
-                <p>{{ delimit .Languages " ∘ " | markdownify }}</p>
-                {{ end }}
-            </div>
+  <body class="cont page">
+    <div class="main">
+      <a href="../">
+        <p>‹ go back</p>
+      </a>
+      <h1 class="subtitle secondary-display-title display-title">
+        My projects.
+      </h1>
+      <p class="mt-1">
+        Interested in working together?
+        <a href="../me#contact">Get in touch</a>.
+      </p>
+      <p class="mt-1">
+        You might also want to read <a href="../me">about me</a>,
+        <a href="../Resume.pdf">my resume</a>, or
+        <a href="../blog">more about my projects</a>.
+      </p>
+      <div class="folio-projects grid" style="margin: 2rem 0">
+        {{ range $.Site.Data.projects.Projects }}
+        <div class="grid-element">
+          <p><strong>{{ .Title }}</strong></p>
+          <p class="mt-1">{{ .Description }}</p>
+          {{ if .Link }}
+          <p class="mt-1">
+            <a href="{{ .Github }}" target="_blank">Source</a> ∘
+            <a href="{{ .Link }}" target="_blank">Link</a>.
+          </p>
+          {{ else }}
+          <p class="mt-1"><a href="{{ .Github }}" target="_blank">Source</a></p>
+          {{ end }}
         </div>
-    </body>
+        {{ end }}
+      </div>
+      <h2 class="sub-2">My talks:</h2>
+      <div class="folio-talks grid">
+        {{ range $.Site.Data.projects.Talks }}
+        <div class="grid-element">
+          <p><strong>{{ .Title }}</strong></p>
+          <p>
+            {{ .Description | markdownify }} {{ if .Link }} (<a
+              href="{{ .Link }}"
+              target="_blank"
+              >Link to talk</a
+            >) {{ end }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+      <div style="margin-top: 2rem">
+        <h2 class="sub-2">I use:</h2>
+        <div class="grid-element">
+          {{ with $.Site.Data.projects.Uses }}
+          <p>{{ delimit .Languages " ∘ " | markdownify }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

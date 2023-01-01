@@ -114,22 +114,22 @@ h6 {
 }
 svg {
   fill: var(--light-muted-accent-colour);
+  transition: 0.5s;
 }
 svg:hover {
   fill: var(--accent-colour);
-  transition: 0.5s;
 }
 a {
   color: #fff;
   text-decoration: var(--accent-colour) underline;
   -webkit-text-decoration: var(--accent-colour) underline;
+  transition: 0.5s;
 }
 a:hover {
   color: var(--accent-colour);
-  transition: 0.5s;
 }
 hr {
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 img {
   display: block;
@@ -143,11 +143,11 @@ ol p {
   display: inline;
 }
 ul {
-  padding-left: 2%;
+  padding-left: 1.5rem;
 }
 pre {
-  padding: 3.5%;
-  margin: 2% 0;
+  padding: 1.5rem;
+  margin: 1rem 0;
   overflow-x: auto;
   background-color: var(--sub-colour);
 }
@@ -156,7 +156,7 @@ figcaption {
 }
 figure img {
   margin: auto;
-  border-radius: 7px;
+  border-radius: 8px;
 }
 .grid {
   display: grid;
@@ -164,10 +164,10 @@ figure img {
   grid-gap: 0.7em;
 }
 .grid-element {
-  background: linear-gradient(
-    139.94deg,
-    rgba(255, 255, 255, 0.132) 26.92%,
-    rgba(179, 160, 222, 0.4) 101.38%
+  background: radial-gradient(
+    150% 150% at 0% 0%,
+    #ffffff22 50%,
+    #b3a0de66 100%
   );
   backdrop-filter: blur(4px);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -175,7 +175,6 @@ figure img {
   padding: 1.5rem;
 }
 .grid-element p {
-  font-size: 1em;
   overflow-wrap: break-word;
 }
 .grid-element:nth-child(4n + 2) {
@@ -193,40 +192,40 @@ figure img {
   justify-content: center;
 }
 .page {
-  padding: max(4.5%, 45px) 0;
-  background: linear-gradient(#1e1e1e88, #1e1e1e88),
-    url(https://kewbi.sh/Back2.svg) left, url(https://kewbi.sh/Back1.svg) right;
+  background: url(https://kewbi.sh/Back2.svg) left,
+    url(https://kewbi.sh/Back1.svg) right;
   background-size: 15%, 15%;
   background-repeat: repeat-y, repeat-y;
 }
 .main {
   width: 75%;
+  padding: 3rem 0;
 }
 .subtitle {
   font-size: 5em;
 }
 .sub-2 {
   font-size: 3em;
-  margin: 2% 0;
+  margin: 1.5rem 0;
 }
 .me-el {
   margin: 1rem 0;
 }
 li {
   list-style-position: outside;
-  margin-left: 1%;
+  margin-left: 0.5rem;
 }
 button,
 input,
 textarea {
   display: block;
   background-color: var(--sub-colour);
-  padding: 1%;
-  margin: 1% 0;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0;
   font-size: 1em;
   font-family: "Source Sans 3";
   color: #fff;
-  border-radius: 7px;
+  border-radius: 8px;
   border: none;
   width: 40vw;
 }
@@ -236,8 +235,7 @@ button {
 }
 .index {
   overflow: hidden hidden;
-  background: linear-gradient(#1e1e1e88, #1e1e1e88),
-    url(https://kewbi.sh/Back2.svg) left no-repeat,
+  background: url(https://kewbi.sh/Back2.svg) left no-repeat,
     url(https://kewbi.sh/Back1.svg) right no-repeat;
   background-size: 15%, 15%;
   height: 100vh;
@@ -277,7 +275,7 @@ button {
 .mt-1 {
   margin-top: 0.5rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
   html {
     font-size: 1em;
   }
@@ -298,9 +296,10 @@ button {
   }
   .title {
     font-size: 5em;
+    margin-bottom: 1rem;
   }
   .page {
-    background-size: 22%, 22%;
+    background-size: 0%, 0%;
   }
   .grid-element:nth-child(4n + 2),
   .grid-element:nth-child(4n + 3) {
@@ -310,29 +309,21 @@ button {
     grid-column: 1/-1;
   }
   .grid-element {
-    padding: 5% 6%;
+    padding: 2rem;
     font-size: 1.2em;
+    backdrop-filter: none;
   }
   input,
   textarea {
     width: 70vw;
   }
-  .index-main {
-    top: 0%;
-    padding: max(4.5%, 50px);
-    transform: none;
-  }
   .index {
     overflow-y: auto;
   }
 }
-@media all and (min-width: 568px) and (max-width: 768px) {
+@media all and (min-width: 568px) and (max-width: 820px) {
   :root {
     --grid-columns: minmax(0, 1fr) minmax(0, 1fr);
-  }
-  .index-main {
-    transform: translateY(25%);
-    height: 80%;
   }
 }
 @media all and (max-width: 568px) {
@@ -350,4 +341,3 @@ button {
     width: 4rem;
   }
 }
-/*  --- new css ---  */
