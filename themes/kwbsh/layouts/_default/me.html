@@ -35,7 +35,7 @@
   </head>
 
   <body class="cont page">
-    <div class="main">
+    <main class="main">
       <a href="../">
         <p>‹ go back</p>
       </a>
@@ -87,15 +87,18 @@
       <div class="me-contact" id="contact">
         <h2 class="sub-2">Let's get in touch.</h2>
         <form action="https://formspree.io/mnqgqgyv" method="post">
-          <input type="text" name="name" placeholder="Your name" />
-          <input type="email" name="email" placeholder="📧 Your email" />
+          <input type="text" name="name" placeholder="Your name" aria-label="Name" autocomplete="on" required />
+          <input type="email" name="email" placeholder="📧 Your email" aria-label="Email address" autocomplete="on" required />
           <textarea
             name="message"
             cols="30"
             rows="10"
-            placeholder="Let's chat."
+            placeholder="Let's chat!"
+            aria-label="Message"
+            autocomplete="off"
+            required
           ></textarea>
-          <button type="submit">Submit.</button>
+          <button type="submit" aria-label="Submit message">Send</button>
         </form>
       </div>
     </div>

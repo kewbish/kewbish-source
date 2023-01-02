@@ -1,8 +1,9 @@
 :root {
   --main-colour: #1e1e1e;
   --sub-colour: #323232;
+  --dark-sub-colour: #2a2a2a;
   --accent-colour: #d0bbff;
-  --dark-accent-colour: #7e68a9;
+  --dark-accent-colour: #51437d;
   --light-muted-accent-colour: #ebe5fa;
   --grid-columns: minmax(0, 5fr) minmax(0, 1fr) minmax(0, 5fr);
 }
@@ -22,11 +23,11 @@
   height: 0;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--dark-accent-colour);
+  background: var(--sub-colour);
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: var(--accent-colour);
+  background: var(--dark-accent-colour);
 }
 html {
   background-color: var(--main-colour);
@@ -229,6 +230,16 @@ textarea {
   border: none;
   width: 40vw;
 }
+button:focus {
+  background-color: var(--dark-accent-colour);
+}
+input:focus,
+textarea:focus {
+  background-color: var(--dark-sub-colour);
+}
+a:focus {
+  color: var(--dark-accent-colour);
+}
 button {
   cursor: pointer;
   width: 150px;
@@ -331,7 +342,7 @@ button {
     --grid-columns: minmax(0, 1fr);
   }
   .index-main {
-    margin-top: -8rem;
+    margin-top: -7rem;
   }
   #index-name {
     margin: 1rem 0;
@@ -339,5 +350,8 @@ button {
   #sparkles {
     margin-bottom: -0.5rem;
     width: 4rem;
+  }
+  #salutation {
+    display: none;
   }
 }
