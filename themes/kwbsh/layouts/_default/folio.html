@@ -78,10 +78,10 @@
         {{ end }}
       </div>
       <div style="margin-top: 2rem">
-        <h2 class="sub-2">I use:</h2>
+        <h2 class="sub-2">I'm experienced in:</h2>
         <div class="grid-element">
           {{ with $.Site.Data.projects.Uses }}
-          <p>{{ delimit .Languages " ∘ " | markdownify }}</p>
+          <p>{{ delimit .Languages "&nbsp;&nbsp;∘&nbsp;&nbsp;" | markdownify }}</p>
           {{ end }}
         </div>
       </div>
