@@ -1,62 +1,77 @@
 {
-    "Projects": [
-        {
-            "Title": "🖋️ Yours, Kewbish",
-            "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~105k words written so far.",
-            "Github": "https://github.com/kewbish/blog",
-            "Link": "https://kewbi.sh/blog"
-        },
-        {
-            "Title": "🔬 Primality Testing",
-            "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant. Supervised by Ms. Pressiana Marinova, B.A Mathematics Cambridge.",
-            "Github": "https://github.com/kewbish/srs",
-            "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
-        },
-        {
-            "Title": "🌊 DiveIntoHT.ML",
-            "Description": "An interactive short course designed to teach the basics of web design. Accumulated ~400 users, recommended by several CS teachers.",
-            "Github": "https://github.com/kewbish/sjap/",
-            "Link": "https://diveintoht.ml"
-        },
-        {
-            "Title": "⚛️  Matter",
-            "Description": "A minimalist RSS reader and bookmarking tool, built with vanilla JS and GitHub integrations. Meant as a personal replacement for clunky readers.",
-            "Github": "https://github.com/kewbish/matter/",
-            "Link": "https://kewbi.sh/matter/"
-        },
-        {
-            "Title": "💸 Revshare.js",
-            "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won the Grant For The Web Hackathon grand prize.",
-            "Github": "https://github.com/kewbish/revshare",
-            "Link": "https://kewbi.sh/revshare/"
-        },
-        {
-            "Title": "💵 Revshare for GitHub",
-            "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue through the Web Monetization API.",
-            "Github": "https://github.com/kewbish/revshare-gh"
-        },
-        {
-            "Title": "🗽 Liberty",
-            "Description": "A Terminal User Interface built to bring the Leitner box space repetition technique to the terminal. Implements a text-based SRS system with open-ended question features.",
-            "Github": "https://github.com/kewbish/liberty",
-            "Link": "https://pypi.org/project/liberty-tui/"
-        },
-        {
-            "Title": "🎮 rack8",
-            "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
-            "Github": "https://github.com/kewbish/rack8"
-        }
-    ],
-    "Talks": [
-        {
-            "Title": "🧠 Augment Minds 2021",
-            "Description": "An (un)conference on advancing technologies in the tools for thought space, and delightful innovations in HCI for complementing thought. Delivered a lightning talk on a plaintext Zettelkasten system and my toolkit of choice: Vim, FZF, RipGrep, and Ctags.",
-            "Link": "https://kewbi.sh/blog/posts/210815/"
-        }
-    ],
-    "Uses": {
-        "Languages": [
-            "**Python** - Flask, Click, Kivy", "**JS** - Vue.js, React.js, Node.js", "**Web** - HTML/CSS, Bulma, Hugo", "**DBs** - SQLite, MongoDB, Firebase", "**Misc.** - C, Unity + C#, Vim + Vimscript"
-        ]
+  "Projects": [
+    {
+      "Title": "🖋️ Yours, Kewbish",
+      "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~105k words written so far.",
+      "Github": "https://github.com/kewbish/blog",
+      "Link": "https://kewbi.sh/blog"
+    },
+    {
+      "Title": "📊 UMLie",
+      "Description": "A UML diagram generator built in Java. Parses file imports and association types (fields, aggregations, etc.) to create several types of diagrams.",
+      "Github": "https://github.com/kewbish/umlie"
+    },
+    {
+      "Title": "👨‍🏫 Knetwork",
+      "Description": "An offline-first educational system for remote communities, with infinite AI-generated problems and tests. Won the <a href='https://hack-the-change-2022.devpost.com/'>Hack The Change 2022 hackathon</a>.",
+      "Github": "https://github.com/KevinL10/Knetwork",
+      "Link": "https://devpost.com/software/knetwork"
+    },
+    {
+      "Title": "🔬 Primality Testing",
+      "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant. Supervised by Ms. Pressiana Marinova, B.A Mathematics Cambridge.",
+      "Github": "https://github.com/kewbish/srs",
+      "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
+    },
+    {
+      "Title": "🌊 DiveIntoHT.ML",
+      "Description": "An interactive short course designed to teach the basics of web design. Accumulated ~400 users, recommended by several CS teachers.",
+      "Github": "https://github.com/kewbish/sjap/",
+      "Link": "https://diveintoht.ml"
+    },
+    {
+      "Title": "⚛️  Matter",
+      "Description": "A minimalist RSS reader and bookmarking tool, built with vanilla JS and GitHub integrations. Meant as a personal replacement for clunky readers.",
+      "Github": "https://github.com/kewbish/matter/",
+      "Link": "https://kewbi.sh/matter/"
+    },
+    {
+      "Title": "💸 Revshare.js",
+      "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won the Grant For The Web Hackathon grand prize.",
+      "Github": "https://github.com/kewbish/revshare",
+      "Link": "https://kewbi.sh/revshare/"
+    },
+    {
+      "Title": "💵 Revshare for GitHub",
+      "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue through the Web Monetization API.",
+      "Github": "https://github.com/kewbish/revshare-gh"
+    },
+    {
+      "Title": "🗽 Liberty",
+      "Description": "A Terminal User Interface built to bring the Leitner box space repetition technique to the terminal. Implements a text-based SRS system with open-ended question features.",
+      "Github": "https://github.com/kewbish/liberty",
+      "Link": "https://pypi.org/project/liberty-tui/"
+    },
+    {
+      "Title": "🎮 rack8",
+      "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
+      "Github": "https://github.com/kewbish/rack8"
     }
+  ],
+  "Talks": [
+    {
+      "Title": "🧠 Augment Minds 2021",
+      "Description": "An (un)conference on advancing technologies in the tools for thought space, and delightful innovations in HCI for complementing thought. Delivered a lightning talk on a plaintext Zettelkasten system and my toolkit of choice: Vim, FZF, RipGrep, and Ctags.",
+      "Link": "https://kewbi.sh/blog/posts/210815/"
+    }
+  ],
+  "Uses": {
+    "Languages": [
+      "**JS** - React, Typescript, Vue, Node, Express",
+      "**Web Design** - Bootstrap, Bulma, Hugo",
+      "**Databases** - GraphQL, MongoDB, SQLite, Firebase",
+      "**Python** - Flask, Click, Kivy",
+      "**Misc.** - C, Java, Unity + C#, Vim + Vimscript, Arch-based Linux systems"
+    ]
+  }
 }

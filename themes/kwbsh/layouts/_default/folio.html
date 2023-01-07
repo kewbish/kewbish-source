@@ -39,10 +39,10 @@
       </h1>
       <p class="mt-1">
         Interested in working together?
-        <a href="../me#contact">Get in touch</a>.
+        <a href="../about#contact">Get in touch</a>.
       </p>
       <p class="mt-1">
-        You might also want to read <a href="../me">about me</a>,
+        You might also want to read <a href="../about">about me</a>,
         <a href="../Resume.pdf">my resume</a>, or
         <a href="../blog">more about my projects</a>.
       </p>
@@ -50,7 +50,7 @@
         {{ range $.Site.Data.projects.Projects }}
         <div class="grid-element">
           <p><strong>{{ .Title }}</strong></p>
-          <p class="mt-1">{{ .Description }}</p>
+          <p class="mt-1">{{ .Description | safeHTML }}</p>
           {{ if .Link }}
           <p class="mt-1">
             <a href="{{ .Github }}" target="_blank">Source</a> ∘
