@@ -7,9 +7,10 @@
       "Link": "https://kewbi.sh/blog"
     },
     {
-      "Title": "📊 UMLie",
-      "Description": "A UML diagram generator built in Java. Parses file imports and association types (fields, aggregations, etc.) to create several types of diagrams.",
-      "Github": "https://github.com/kewbish/umlie"
+      "Title": "🕸️ Cobweb",
+      "Description": "An Ethereum-based Web Monetization Chrome extension enabling micro-payment streaming natively on the web. Won the <a href='https://docs.superfluid.finance/superfluid/resources/superfluid-wave-pool'>Superfluid.finance Wave Pool #5</a>.",
+      "Github": "https://github.com/kewbish/cobweb",
+      "Link": "https://kewbi.sh/cobweb"
     },
     {
       "Title": "👨‍🏫 Knetwork",
@@ -24,8 +25,13 @@
       "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
     },
     {
+      "Title": "📊 UMLie",
+      "Description": "A UML diagram generator built in Java. Parses file imports and association types (fields, aggregations, etc.) to create several types of diagrams.",
+      "Github": "https://github.com/kewbish/umlie"
+    },
+    {
       "Title": "🌊 DiveIntoHT.ML",
-      "Description": "An interactive short course designed to teach the basics of web design. Accumulated ~400 users, recommended by several CS teachers.",
+      "Description": "An interactive short course designed to teach the basics of web design. Accumulated ~400 registered users and receives ~1k monthly pageviews.",
       "Github": "https://github.com/kewbish/sjap/",
       "Link": "https://diveintoht.ml"
     },
