@@ -1,16 +1,13 @@
 {
   "Education": {
     "Name": "UBC",
-    "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a second-year planning to pursue an Honours Degree in Computer Science from the Faculty of Science, with perhaps the <a href=\"https://www.cs.ubc.ca/students/undergrad/degree-programs#softeng\">Software Engineering</a> designation.",
+    "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a third-year pursuing an Honours Degree in Computer Science from the Faculty of Science.",
     "Activities": [
       {
         "Text": "am one of the ten 2021 <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally."
       },
       {
-        "Text": "am one of the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a> webmasters. I'm responsible for updating the website, and working on maintaining the <a href='https://exams.ubccsss.org/'>Exam Database</a>."
-      },
-      {
-        "Text": "am a web designer for <a href='https://maplebacon.org/'>Maple Bacon</a>. I design their CTF themes and help out with graphics."
+        "Text": "am Vice-President Academic at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>. I lead the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
       }
     ],
     "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
@@ -19,7 +16,7 @@
     {
       "Position": "☁️ Cloudflare",
       "Date": "May - Aug. 2023",
-      "Description": "Intern on [Cloudflare's](https://www.cloudflare.com/) [Queues](https://developers.cloudflare.com/queues/) team. I'm working on making the Queues experience more user-friendly with some new features - stay tuned for more specifics!"
+      "Description": "Intern on [Cloudflare's](https://www.cloudflare.com/) [Queues](https://developers.cloudflare.com/queues/) team. I added [debugging features for Queues](https://blog.cloudflare.com/debug-queues-from-dash/) to the Cloudflare dashboard, which had a feature conversion rate of 50+%. I also performed service-wide migrations with Kubernetes and Helm, introduced E2E testing to the Queues frontend UI with Cypress, and created Grafana dashboards to track feature usage metrics."
     },
     {
       "Position": "⠕ Replit",

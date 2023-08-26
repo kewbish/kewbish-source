@@ -13,6 +13,11 @@
       "Link": "https://kewbi.sh/cobweb"
     },
     {
+      "Title": "🧢 Disparati",
+      "Description": "Solutions for Fly.io's Gossip Glomers (Distributed Systems) challenges, including a globally-unique ID generator, a linearizable key-value store, and various CRDTs.",
+      "Github": "https://github.com/kewbish/disparati"
+    },
+    {
       "Title": "👨‍🏫 Knetwork",
       "Description": "An offline-first educational system for remote communities, with infinite AI-generated problems and tests. Won the <a href='https://hack-the-change-2022.devpost.com/'>Hack The Change 2022 hackathon</a>.",
       "Github": "https://github.com/KevinL10/Knetwork",
