@@ -19,6 +19,11 @@
       "Description": "Intern on [Cloudflare's](https://www.cloudflare.com/) [Queues](https://developers.cloudflare.com/queues/) team. I added [debugging features for Queues](https://blog.cloudflare.com/debug-queues-from-dash/) to the Cloudflare dashboard, which had a feature conversion rate of 50+%. I also performed service-wide migrations with Kubernetes and Helm, introduced E2E testing to the Queues frontend UI with Cypress, and created Grafana dashboards to track feature usage metrics."
     },
     {
+      "Position": "👩‍🔬 UBC D-Lab",
+      "Date": "Jan. - Apr. 2023",
+      "Description": "Research assistant under Professors [Dongwook Yoon](https://dwyoon.com/), [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), and [Cleidson de Souza](https://scholar.google.ca/citations?user=5kncGscAAAAJ&hl=en). I explored the characterization and identification of software engineering workflow types via network analysis, writing visualization scripts and queries in Python and Neo4j for the quantitative aspects of analysis."
+    },
+    {
       "Position": "⠕ Replit",
       "Date": "May - Aug. 2022",
       "Description": "Intern on [Replit's](https://replit.com/) Workspace team. I worked alongside another intern to own an end-to-end [migration of the GitHub import flow to Nix](https://blog.replit.com/nix-github-imports). Our work sped the flow up 2x and made Replit's import tool twice as fast than even Microsoft's GitHub Codespaces product. I also worked on a visual configuration editor for .replit files."

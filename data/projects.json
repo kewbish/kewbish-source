@@ -7,21 +7,31 @@
       "Link": "https://kewbi.sh/blog"
     },
     {
+      "Title": "🧢 Disparati",
+      "Description": "Solutions for Fly.io's Gossip Glomers (Distributed Systems) challenges, including a globally-unique ID generator, a linearizable key-value store, and various CRDTs.",
+      "Github": "https://github.com/kewbish/disparati"
+    },
+    {
       "Title": "🕸️ Cobweb",
       "Description": "An Ethereum-based Web Monetization Chrome extension enabling micro-payment streaming natively on the web. Won the <a href='https://docs.superfluid.finance/superfluid/resources/superfluid-wave-pool'>Superfluid.finance Wave Pool #5</a>.",
       "Github": "https://github.com/kewbish/cobweb",
       "Link": "https://kewbi.sh/cobweb"
     },
     {
-      "Title": "🧢 Disparati",
-      "Description": "Solutions for Fly.io's Gossip Glomers (Distributed Systems) challenges, including a globally-unique ID generator, a linearizable key-value store, and various CRDTs.",
-      "Github": "https://github.com/kewbish/disparati"
+      "Title": "🤝 PR-Issue Graph Topologies",
+      "Description": "A collection of Python visualization scripts and Neo4j queries facilitating quantitative and qualitative analysis of GitHub collaboration patterns.",
+      "Github": "https://github.com/ubcdlab/pr-issue-topology-project"
     },
     {
       "Title": "👨‍🏫 Knetwork",
       "Description": "An offline-first educational system for remote communities, with infinite AI-generated problems and tests. Won the <a href='https://hack-the-change-2022.devpost.com/'>Hack The Change 2022 hackathon</a>.",
       "Github": "https://github.com/KevinL10/Knetwork",
       "Link": "https://devpost.com/software/knetwork"
+    },
+    {
+      "Title": "🪵 woodchip8",
+      "Description": "A Chip-8 emulator in Go. A toy project to learn Go and the <a href='https://github.com/hajimehoshi/ebiten'>Ebitengine game framework</a>.",
+      "Github": "https://github.com/kewbish/woodchip8"
     },
     {
       "Title": "🔬 Primality Testing",
@@ -71,6 +81,11 @@
   ],
   "Talks": [
     {
+      "Title": "⌨️ NeovimConf 2023",
+      "Description": "An online conference on the Vim/Neovim text editor, featuring talks from core maintainers and community members. Presented a lightning talk on my Vim-based personal notetaking system, built around Neovim, FZF, and RipGrep.",
+      "Link": "https://www.youtube.com/watch?v=1a6AEJxH_Dk"
+    },
+    {
       "Title": "🧠 Augment Minds 2021",
       "Description": "An (un)conference on advancing technologies in the tools for thought space, and delightful innovations in HCI for complementing thought. Delivered a lightning talk on a plaintext Zettelkasten system and my toolkit of choice: Vim, FZF, RipGrep, and Ctags.",
       "Link": "https://kewbi.sh/blog/posts/210815/"
@@ -78,11 +93,10 @@
   ],
   "Uses": {
     "Languages": [
-      "**JS** - React, Typescript, Vue, Node, Express",
-      "**Web Design** - Bootstrap, Bulma, Hugo",
-      "**Databases** - GraphQL, MongoDB, SQLite, Firebase",
-      "**Python** - Flask, Click, Kivy",
-      "**Misc.** - C, Java, Unity + C#, Vim + Vimscript, Arch-based Linux systems"
+      "**Frontend Development** - React, Typescript, Node, Next, Express, Jest, Vue",
+      "**Backend Development** - Python (Flask), Go, Node, Java, Serverless / Distributed Architectures, Docker, Kubernetes",
+      "**Databases** - MySQL, PostgreSQL, Oracle, Neo4j, GraphQL, MongoDB, SQLite, Firebase",
+      "**Misc.** - C, Unity + C#, Vim + Vimscript, Unix/Linux systems, Grafana"
     ]
   }
 }
