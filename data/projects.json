@@ -7,6 +7,11 @@
       "Link": "https://kewbi.sh/blog"
     },
     {
+      "Title": "🪺 NestedName",
+      "Description": "A domain search tool facilitating domain hacks, like 'emilie.ma' or 'ma.tt', enabling users to find their ideal quirky domain. Email forwarding, link-in-bio sites, and vanity link shortening coming soon.",
+      "Link": "https://nested.name"
+    },
+    {
       "Title": "🧢 Disparati",
       "Description": "Solutions for Fly.io's Gossip Glomers (Distributed Systems) challenges, including a globally-unique ID generator, a linearizable key-value store, and various CRDTs.",
       "Github": "https://github.com/kewbish/disparati"
@@ -80,6 +85,11 @@
     }
   ],
   "Talks": [
+    {
+      "Title": "🌐 Open Source Summit North America 2024",
+      "Description": "North America's premier open source conference, with keynotes from community figureheads (like Linus Torvalds!) Presented my research on the GitHub PR-Issue graph, including the prototypical workflow types we identified and their implications for open source maintainers.",
+      "Link": "https://www.youtube.com/watch?v=iUZaW_cjwYU"
+    },
     {
       "Title": "⌨️ NeovimConf 2023",
       "Description": "An online conference on the Vim/Neovim text editor, featuring talks from core maintainers and community members. Presented a lightning talk on my Vim-based personal notetaking system, built around Neovim, FZF, and RipGrep.",

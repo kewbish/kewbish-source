@@ -7,12 +7,22 @@
         "Text": "am one of the ten 2021 <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally."
       },
       {
-        "Text": "am Vice-President Academic at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>. I lead the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
+        "Text": "am Co-Vice-President External at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>, connecting students with industry partners through workshops and career fair events. I previously served as Vice-President Academic and led the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
       }
     ],
     "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
   },
   "Experience": [
+    {
+      "Position": "🇸 Stripe",
+      "Date": "May - Aug. 2024",
+      "Description": "Intern on [Stripe's](https://stripe.com) Document Database APIs and Reconciler team. I work on reducing MongoDB costs — more details TBA."
+    },
+    {
+      "Position": "🦀 UBC Systopia",
+      "Date": "Jan. - Apr. 2024",
+      "Description": "Research assistant under Professor [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/) and [Finn Hackett](https://fhackett.github.io/) on the DCal project. Building on prior work in the [PGo](https://www.cs.ubc.ca/~bestchai/papers/asplos23-pgo.pdf) project to generate implementations of distributed systems from formally verified models, I created a Rust library to support similar system generation via an eventual compiler from the TLA+ modelling language to Rust. The library provides extensively customizable generic methods and supports lazy evaluation."
+    },
     {
       "Position": "☁️ Cloudflare",
       "Date": "May - Aug. 2023",
@@ -20,8 +30,8 @@
     },
     {
       "Position": "👩‍🔬 UBC D-Lab",
-      "Date": "Jan. - Apr. 2023",
-      "Description": "Research assistant under Professors [Dongwook Yoon](https://dwyoon.com/), [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), and [Cleidson de Souza](https://scholar.google.ca/citations?user=5kncGscAAAAJ&hl=en). I explored the characterization and identification of software engineering workflow types via network analysis, writing visualization scripts and queries in Python and Neo4j for the quantitative aspects of analysis."
+      "Date": "Jan. 2023 - Apr. 2024",
+      "Description": "Research assistant under Professors [Dongwook Yoon](https://dwyoon.com/), [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), and [Cleidson de Souza](https://scholar.google.ca/citations?user=5kncGscAAAAJ&hl=en). I explored the characterization and identification of software engineering workflow types via network analysis, writing visualization scripts and queries in Python and Neo4j for the quantitative aspects of analysis. Our paper, 'Revealing Software Development Work Patterns with PR-Issue Graph Topologies', will appear in FSE 2024."
     },
     {
       "Position": "⠕ Replit",
