@@ -16,7 +16,7 @@
     {
       "Position": "🇸 Stripe",
       "Date": "May - Aug. 2024",
-      "Description": "Intern on [Stripe's](https://stripe.com) Document Database APIs and Reconciler team. I work on reducing MongoDB costs — more details TBA."
+      "Description": "Intern on [Stripe's](https://stripe.com) Document Database APIs and Reconciler team. I worked on reducing MongoDB costs — I unlocked multi-tenancy for Stripe's databases by developing and deploying a Go component across the fleet, reducing AWS costs by an estimated ~$450K/year and eliminating 200 days/year of cross-functional waiting time and ops toil. I also refactored internal PostgreSQL infra to use serializable transactions to avoid race condition."
     },
     {
       "Position": "🦀 UBC Systopia",
