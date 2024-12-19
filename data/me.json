@@ -8,11 +8,24 @@
       },
       {
         "Text": "am Co-Vice-President External at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>, connecting students with industry partners through workshops and career fair events. I previously served as Vice-President Academic and led the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
+      },
+      {
+        "Text": "am taking a gap year for the 2024-2025 academic year in order to do research internships at the University of Cambridge and at Sorbonne Université."
       }
     ],
     "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
   },
   "Experience": [
+    {
+      "Position": "🦁 University of Cambridge",
+      "Date": "Sep. - Dec. 2024",
+      "Description": "Visiting Researcher under [Dr. Martin Kleppmann](https://martin.kleppmann.com/) in collaboration with [Ink & Switch](https://www.inkandswitch.com/). I created [Kintsugi](https://github.com/kewbish/kintsugi), a decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype in Rust with Tauri and libp2p. Paper available by request, as it's currently under submission to a workshop."
+    },
+    {
+      "Position": "🇩🇪 Summer School on Distributed and Replicated Environments",
+      "Date": "Sep. 2024",
+      "Description": "Attended the [DARE 2024](https://dare-summer.github.io/attending/) ACM Europe Summer School, a one-week summer program in distributed systems combining theory and practice. The program is aimed at master’s students and PhD students interested in the field of distributed systems and programming languages, and I was the only undergraduate student accepted to attend this year."
+    },
     {
       "Position": "🇸 Stripe",
       "Date": "May - Aug. 2024",
