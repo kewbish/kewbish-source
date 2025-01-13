@@ -1,7 +1,7 @@
 {
   "Education": {
     "Name": "UBC",
-    "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a third-year pursuing an Honours Degree in Computer Science from the Faculty of Science.",
+    "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a gap-year senior pursuing an Honours Degree in Computer Science. (Honours denotes additional academic, research, and thesis requirements.)",
     "Activities": [
       {
         "Text": "am one of the ten 2021 <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally."
@@ -19,72 +19,92 @@
     {
       "Position": "🦁 University of Cambridge",
       "Date": "Sep. - Dec. 2024",
-      "Description": "Visiting Researcher under [Dr. Martin Kleppmann](https://martin.kleppmann.com/) in collaboration with [Ink & Switch](https://www.inkandswitch.com/). I created [Kintsugi](https://github.com/kewbish/kintsugi), a decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype in Rust with Tauri and libp2p. Paper available by request, as it's currently under submission to a workshop."
+      "Description": "Visiting Researcher under [Dr. Martin Kleppmann](https://martin.kleppmann.com/) in collaboration with [Ink & Switch](https://www.inkandswitch.com/). I created [Kintsugi](https://github.com/kewbish/kintsugi), a decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype in Rust with Tauri and libp2p. Paper available by request, as it's currently under submission to a workshop.",
+      "Tags": ["Research", "All"]
     },
     {
       "Position": "🇩🇪 Summer School on Distributed and Replicated Environments",
       "Date": "Sep. 2024",
-      "Description": "Attended the [DARE 2024](https://dare-summer.github.io/attending/) ACM Europe Summer School, a one-week summer program in distributed systems combining theory and practice. The program is aimed at master’s students and PhD students interested in the field of distributed systems and programming languages, and I was the only undergraduate student accepted to attend this year."
+      "Description": "Attended the [DARE 2024](https://dare-summer.github.io/attending/) ACM Europe Summer School, a one-week summer program in distributed systems combining theory and practice. The program is aimed at master’s students and PhD students interested in the field of distributed systems and programming languages, and I was the only undergraduate student accepted to attend this year.",
+      "Tags": ["Research", "All"]
     },
     {
       "Position": "🇸 Stripe",
       "Date": "May - Aug. 2024",
-      "Description": "Intern on [Stripe's](https://stripe.com) Document Database APIs and Reconciler team. I worked on reducing MongoDB costs — I unlocked multi-tenancy for Stripe's databases by developing and deploying a Go component across the fleet, reducing AWS costs by an estimated ~$450K/year and eliminating 200 days/year of cross-functional waiting time and ops toil. I also refactored internal PostgreSQL infra to use serializable transactions to avoid race condition."
+      "Description": "Intern on [Stripe's](https://stripe.com) Document Database APIs and Reconciler team. I worked on reducing MongoDB costs — I unlocked multi-tenancy for Stripe's databases by developing and deploying a Go component across the fleet, reducing AWS costs by an estimated ~$450K/year and eliminating 200 days/year of cross-functional waiting time and ops toil. I also refactored internal PostgreSQL infra to use serializable transactions to avoid race condition.",
+      "Tags": ["Industry", "All"]
     },
     {
       "Position": "🦀 UBC Systopia",
       "Date": "Jan. - Apr. 2024",
-      "Description": "Research assistant under Professor [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/) and [Finn Hackett](https://fhackett.github.io/) on the DCal project. Building on prior work in the [PGo](https://www.cs.ubc.ca/~bestchai/papers/asplos23-pgo.pdf) project to generate implementations of distributed systems from formally verified models, I created a Rust library to support similar system generation via an eventual compiler from the TLA+ modelling language to Rust. The library provides extensively customizable generic methods and supports lazy evaluation."
+      "Description": "Research assistant under Professor [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/) and [Finn Hackett](https://fhackett.github.io/) on the DCal project. Building on prior work in the [PGo](https://www.cs.ubc.ca/~bestchai/papers/asplos23-pgo.pdf) project to generate implementations of distributed systems from formally verified models, I created a Rust library to support similar system generation via an eventual compiler from the TLA+ modelling language to Rust. The library provides extensively customizable generic methods and supports lazy evaluation.",
+      "Tags": ["Research", "All"]
     },
     {
       "Position": "☁️ Cloudflare",
       "Date": "May - Aug. 2023",
-      "Description": "Intern on [Cloudflare's](https://www.cloudflare.com/) [Queues](https://developers.cloudflare.com/queues/) team. I added [debugging features for Queues](https://blog.cloudflare.com/debug-queues-from-dash/) to the Cloudflare dashboard, which had a feature conversion rate of 50+%. I also performed service-wide migrations with Kubernetes and Helm, introduced E2E testing to the Queues frontend UI with Cypress, and created Grafana dashboards to track feature usage metrics."
+      "Description": "Intern on [Cloudflare's](https://www.cloudflare.com/) [Queues](https://developers.cloudflare.com/queues/) team. I added [debugging features for Queues](https://blog.cloudflare.com/debug-queues-from-dash/) to the Cloudflare dashboard, which had a feature conversion rate of 50+%. I also performed service-wide migrations with Kubernetes and Helm, introduced E2E testing to the Queues frontend UI with Cypress, and created Grafana dashboards to track feature usage metrics.",
+      "Tags": ["Industry", "All"]
     },
     {
       "Position": "👩‍🔬 UBC D-Lab",
       "Date": "Jan. 2023 - Apr. 2024",
-      "Description": "Research assistant under Professors [Dongwook Yoon](https://dwyoon.com/), [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), and [Cleidson de Souza](https://scholar.google.ca/citations?user=5kncGscAAAAJ&hl=en). I explored the characterization and identification of software engineering workflow types via network analysis, writing visualization scripts and queries in Python and Neo4j for the quantitative aspects of analysis. Our paper, 'Revealing Software Development Work Patterns with PR-Issue Graph Topologies', will appear in FSE 2024."
+      "Description": "Research assistant under Professors [Dongwook Yoon](https://dwyoon.com/), [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), and [Cleidson de Souza](https://scholar.google.ca/citations?user=5kncGscAAAAJ&hl=en). I explored the characterization and identification of software engineering workflow types via network analysis, writing visualization scripts and queries in Python and Neo4j for the quantitative aspects of analysis. Our paper, ['Revealing Software Development Work Patterns with PR-Issue Graph Topologies'](https://dl.acm.org/doi/10.1145/3660813), appeared in FSE 2024.",
+      "Tags": ["Research", "All"]
+    },
+    {
+      "Position": "☀️ Rise Fellow",
+      "Date": "Dec. 2023 - Jan. 2024",
+      "Description": "[Rise](https://www.risefortheworld.org/) is a fellowship supported by Schmidt Futures and the Rhodes Trust, selecting for brilliance, impact, and service. Created an Ethereum-based Web Monetization Chrome extension enabling micro-payment streaming as a way for teens to gain experience with Web3. Also won the [Superfluid.finance Wave Pool #5](https://docs.superfluid.finance/superfluid/resources/superfluid-wave-pool).",
+      "Tags": ["Awards"]
     },
     {
       "Position": "⠕ Replit",
       "Date": "May - Aug. 2022",
-      "Description": "Intern on [Replit's](https://replit.com/) Workspace team. I worked alongside another intern to own an end-to-end [migration of the GitHub import flow to Nix](https://blog.replit.com/nix-github-imports). Our work sped the flow up 2x and made Replit's import tool twice as fast than even Microsoft's GitHub Codespaces product. I also worked on a visual configuration editor for .replit files."
+      "Description": "Intern on [Replit's](https://replit.com/) Workspace team. I worked alongside another intern to own an end-to-end [migration of the GitHub import flow to Nix](https://blog.replit.com/nix-github-imports). Our work sped the flow up 2x and made Replit's import tool twice as fast than even Microsoft's GitHub Codespaces product. I also worked on a visual configuration editor for .replit files.",
+      "Tags": ["Industry", "All"]
     },
     {
       "Position": "🔬 Summer Research School",
       "Date": "Jul. - Aug. 2021",
-      "Description": "Attended the prestigious [Summer Research School](http://www.math.bas.bg/srs/newsite/srs/) in Bulgaria. There, a group of forty Bulgarian and international students pursue a research topic of their choice for three weeks, ultimately developing a formal paper and defending their findings with a presentation. Under the guidance of Ms. Pressiana Marinova, I worked on an inquiry project on probablistic primality testing and the analysis of a probablistic AKS variant. Read [the paper](https://github.com/kewbish/srs/tree/master/Primality.pdf) or [view source code](https://github.com/kewbish/srs/)."
+      "Description": "Attended the prestigious [Summer Research School](http://www.math.bas.bg/srs/newsite/srs/) in Bulgaria. There, a group of forty Bulgarian and international students pursue a research topic of their choice for three weeks, ultimately developing a formal paper and defending their findings with a presentation. Under the guidance of Ms. Pressiana Marinova, I worked on an inquiry project on probablistic primality testing and the analysis of a probablistic AKS variant. Read [the paper](https://github.com/kewbish/srs/tree/master/Primality.pdf) or [view source code](https://github.com/kewbish/srs/).",
+      "Tags": ["Research"]
     },
     {
       "Position": "🏆 Google Code-in",
       "Date": "Dec. 2019",
-      "Description": "In 2019, I was a [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won the competition. I'm one of Canada's ten winners to date and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool."
+      "Description": "In 2019, I was a [Google Code-in](https://g.co/gci) winner, under Liquid Galaxy. For two months, I completed many open source tasks, and eventually won the competition. I'm one of Canada's ten winners to date and the youngest Canadian winner. As well: I was the youngest winner in 2019. Pretty cool.",
+      "Tags": ["Awards"]
     },
     {
       "Position": "🌎 Liquid Galaxy",
       "Date": "Since Feb. 2020",
-      "Description": "Intern at [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and various other media, such as blog posts and installation tutorials. During summer 2020, I acted as a trainee mentor in several GSoC projects, as well as testing them."
+      "Description": "Intern at [Liquid Galaxy](https://liquidgalaxy.eu), a Google-backed open source organization focused on interactive, immersive geographical displays. There, I develop documentation, webinar screencasts, and various other media, such as blog posts and installation tutorials. During summer 2020, I acted as a trainee mentor in several GSoC projects, as well as testing them.",
+      "Tags": ["Older"]
     },
     {
       "Position": "💸 Grant For The Web Hackathon Winner",
       "Date": "May - Jun. 2020",
-      "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS."
+      "Description": "Won the [Grant For The Web Hackathon](https://dev.to/devteam/announcing-the-grant-for-the-web-hackathon-on-dev-3kd1) under the category *Creative Catalysts*, hosted by Dev.to, Mozilla, Coil, and Creative Commons. Created a revenue-sharing library from vanilla JS.",
+      "Tags": ["Awards"]
     },
     {
       "Position": "🐋 vhHacks",
       "Date": "Sep. 2020 - May 2021",
-      "Description": "Team member at [vhHacks](https://vhhacks.ca/), the Vancouver High School Hackathon Association. I'm currently working on several Learn Day workshops and developing fun tooling for our 2021 hackathon."
+      "Description": "Team member at [vhHacks](https://vhhacks.ca/), the Vancouver High School Hackathon Association. I worked on several Learn Day workshops and developed fun tooling for our 2021 hackathon.",
+      "Tags": ["Older"]
     },
     {
       "Position": "🍁 Canada Learning Code",
       "Date": "Oct. 2019 - Jun. 2021",
-      "Description": "Teen Ambassador at [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and learned effective mentorship skills."
+      "Description": "Teen Ambassador at [Canada Learning Code](https://canadalearningcode.ca), a national organization reaching out to bring tech to women, girls, LGBTQ+ members, and focusing on making tech inclusive to all. There, I participate in team-building leadership activities, and learned effective mentorship skills.",
+      "Tags": ["Older"]
     },
     {
       "Position": "📚 Vancouver Public Library",
       "Date": "Sep. 2018 - Jun. 2021",
-      "Description": "Teen Advisory Member at the [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend biweekly youth meetings."
+      "Description": "Teen Advisory Member at the [Vancouver Public Library](https://vpl.ca), the local library serving Vancouver community members. There, I work to organize youth events, purchase youth books, provide feedback on programs, and attend biweekly youth meetings.",
+      "Tags": ["Older"]
     }
   ]
 }

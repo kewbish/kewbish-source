@@ -7,6 +7,11 @@
       "Link": "https://kewbi.sh/blog"
     },
     {
+      "Title": "🫖 Kintsugi",
+      "Description": "A decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype implementation in Rust with Tauri and libp2p.",
+      "Github": "https://github.com/kewbish/kintsugi"
+    },
+    {
       "Title": "🪺 NestedName",
       "Description": "A domain search tool facilitating domain hacks, like 'emilie.ma' or 'ma.tt', enabling users to find their ideal quirky domain. Email forwarding, link-in-bio sites, and vanity link shortening coming soon.",
       "Link": "https://nested.name"
@@ -24,7 +29,7 @@
     },
     {
       "Title": "🤝 PR-Issue Graph Topologies",
-      "Description": "A collection of Python visualization scripts and Neo4j queries facilitating quantitative and qualitative analysis of GitHub collaboration patterns.",
+      "Description": "A collection of Python visualization scripts and Neo4j queries facilitating quantitative and qualitative analysis of GitHub collaboration patterns. See the paper <a href='https://dl.acm.org/doi/10.1145/3660813'>here</a>",
       "Github": "https://github.com/ubcdlab/pr-issue-topology-project"
     },
     {
@@ -40,7 +45,7 @@
     },
     {
       "Title": "🔬 Primality Testing",
-      "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant. Supervised by Ms. Pressiana Marinova, B.A Mathematics Cambridge.",
+      "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant.",
       "Github": "https://github.com/kewbish/srs",
       "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
     },
@@ -86,8 +91,13 @@
   ],
   "Talks": [
     {
-      "Title": "🌐 Open Source Summit North America 2024",
-      "Description": "North America's premier open source conference, with keynotes from community figureheads (like Linus Torvalds!) Presented my research on the GitHub PR-Issue graph, including the prototypical workflow types we identified and their implications for open source maintainers.",
+      "Title": "💾 Neo4j NODES 2024",
+      "Description": "An online developer conference hosted by Neo4j, the graph DB tool. Presented my research on the GitHub PR-Issue graph, how we analyzed it with Neo4j and Cypher, and takeaways for open source developers.",
+      "Link": "https://www.youtube.com/watch?v=xFtwCuRj-Wg"
+    },
+    {
+      "Title": "🌐 Open Source Summit North America 2024 (🟊)",
+      "Description": "North America's premier open source conference, with keynotes from community figureheads (like Linus Torvalds!) Presented my research on the GitHub PR-Issue graph, including the prototypical workflow types we identified and their implications for open source maintainers. I also wrote an accompanying blog post [here](https://kewbi.sh/blog/posts/240602/), and the slides are available in a blog post format [here](https://kewbi.sh/blog/posts/240526/).",
       "Link": "https://www.youtube.com/watch?v=iUZaW_cjwYU"
     },
     {
