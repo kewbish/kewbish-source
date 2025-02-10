@@ -91,6 +91,11 @@
   ],
   "Talks": [
     {
+      "Title": "⚙️ FOSDEM 2025 (🟊)",
+      "Description": "The premier conference promoting free and open-source software in Europe, with 8K+ attendees. Presented my research on the [Kintsugi protocol](https://github.com/kewbish/kintsugi), its security properties, and how it improves on existing E2E key recovery schemes.",
+      "Link": "https://video.fosdem.org/2025/ub4132/fosdem-2025-5266-kintsugi-a-decentralized-e2ee-key-recovery-protocol.av1.webm"
+    },
+    {
       "Title": "💾 Neo4j NODES 2024",
       "Description": "An online developer conference hosted by Neo4j, the graph DB tool. Presented my research on the GitHub PR-Issue graph, how we analyzed it with Neo4j and Cypher, and takeaways for open source developers.",
       "Link": "https://www.youtube.com/watch?v=xFtwCuRj-Wg"
