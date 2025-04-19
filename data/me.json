@@ -17,9 +17,15 @@
   },
   "Experience": [
     {
+      "Position": "🏛️ Sorbonne Université",
+      "Date": "Sep. - Dec. 2024",
+      "Description": "Visiting Researcher under [Dr. Marc Shapiro](https://pages.lip6.fr/Marc.Shapiro/). I implemented rigorously-tested backend stores in Java based on a formal model, including an emulation of the RocksDB KV store at 5% of RocksDB's LoC. I created a reusable testing infrastructure with Dockerized containers, ready to run on the French national research cluster Grid5000, and benchmarked and profiled stores with custom transactional YCSB workloads and with VisualVM.",
+      "Tags": ["Research", "All"]
+    },
+    {
       "Position": "🦁 University of Cambridge",
       "Date": "Sep. - Dec. 2024",
-      "Description": "Visiting Researcher under [Dr. Martin Kleppmann](https://martin.kleppmann.com/) in collaboration with [Ink & Switch](https://www.inkandswitch.com/). I created [Kintsugi](https://github.com/kewbish/kintsugi), a decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype in Rust with Tauri and libp2p. Paper available by request, as it's currently under submission to a workshop.",
+      "Description": "Visiting Researcher under [Dr. Martin Kleppmann](https://martin.kleppmann.com/) in collaboration with [Ink & Switch](https://www.inkandswitch.com/). I created [Kintsugi](https://github.com/kewbish/kintsugi), a decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype in Rust with Tauri and libp2p. I was awarded the Best Presentation prize at the [International Workshop on Security Protocols](https://www.cl.cam.ac.uk/events/spw/2025/).",
       "Tags": ["Research", "All"]
     },
     {
