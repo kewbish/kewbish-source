@@ -18,7 +18,7 @@
   "Experience": [
     {
       "Position": "🏛️ Sorbonne Université",
-      "Date": "Sep. - Dec. 2024",
+      "Date": "Jan. - Apr. 2025",
       "Description": "Visiting Researcher under [Dr. Marc Shapiro](https://pages.lip6.fr/Marc.Shapiro/). I implemented rigorously-tested backend stores in Java based on a formal model, including an emulation of the RocksDB KV store at 5% of RocksDB's LoC. I created a reusable testing infrastructure with Dockerized containers, ready to run on the French national research cluster Grid5000, and benchmarked and profiled stores with custom transactional YCSB workloads and with VisualVM.",
       "Tags": ["Research", "All"]
     },
