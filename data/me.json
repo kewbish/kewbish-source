@@ -10,12 +10,18 @@
         "Text": "am Co-Vice-President External at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>, connecting students with industry partners through workshops and career fair events. I previously served as Vice-President Academic and led the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
       },
       {
-        "Text": "am taking a gap year for the 2024-2025 academic year in order to do research internships at the University of Cambridge and at Sorbonne Université."
+        "Text": "took a gap year for the 2024-2025 academic year in order to do research internships abroad at the University of Cambridge and at Sorbonne Université."
       }
     ],
     "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
   },
   "Experience": [
+    {
+      "Position": "🌸 OpenAI",
+      "Date": "May - Aug. 2025",
+      "Description": "Intern on [OpenAI's](https://openai.com) databases team, details under NDA. I developed shadowing and synthetics testing frameworks for a distributed database to verify correctness and reliability. I also automated some workflows for monitoring service health, enabling faster debugging of traffic and latency anomalies.",
+      "Tags": ["Industry", "All"]
+    },
     {
       "Position": "🏛️ Sorbonne Université",
       "Date": "Jan. - Apr. 2025",
