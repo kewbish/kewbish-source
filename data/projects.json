@@ -1,20 +1,32 @@
 {
   "Projects": [
     {
-      "Title": "🖋️ Yours, Kewbish",
-      "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories. ~105k words written so far.",
-      "Github": "https://github.com/kewbish/blog",
-      "Link": "https://kewbi.sh/blog"
+      "Title": "⚙️ Specula",
+      "Description": "An agent to generate formal specifications directly from codebases and leverage them for bug discovery. Has found 130+ new bugs in production systems so far.",
+      "Github": "https://github.com/specula-org/Specula"
+    },
+    {
+      "Title": "📊 SysMoBench",
+      "Description": "A benchmark assessing frontier LLMs on their ability to formally specify real-world systems. We evaluate system reasoning instead of just syntax validity.",
+      "Github": "https://github.com/specula-org/SysMoBench",
+      "Link": "https://sysmobench.com/"
     },
     {
       "Title": "🫖 Kintsugi",
       "Description": "A decentralized E2EE key recovery scheme allowing users to recover their key from a password while protecting from brute-force or recovery node collusion. I also developed a prototype implementation in Rust with Tauri and libp2p.",
-      "Github": "https://github.com/kewbish/kintsugi"
+      "Github": "https://github.com/kewbish/kintsugi",
+      "Link": "https://arxiv.org/abs/2507.21122"
+    },
+    {
+      "Title": "🪨 CobbleDB",
+      "Description": "A correct-by-construction database, emulating RocksDB's levelled storage based on a formal specification. It achieves reasonably comparable performance, especially on concurrent workloads.",
+      "Github": "https://gitlab.inria.fr/shapiro/cobbledb",
+      "Link": "https://dl.acm.org/doi/10.1145/3806077.3806696"
     },
     {
       "Title": "🪺 NestedName",
-      "Description": "A domain search tool facilitating domain hacks, like 'emilie.ma' or 'ma.tt', enabling users to find their ideal quirky domain. Email forwarding, link-in-bio sites, and vanity link shortening coming soon.",
-      "Link": "https://nested.name"
+      "Description": "A domain search tool facilitating domain hacks, like 'emilie.ma' or 'ma.tt', enabling users to find their ideal quirky domain.",
+      "Link": "https://nestedname.kewbi.sh"
     },
     {
       "Title": "🧢 Disparati",
@@ -22,71 +34,15 @@
       "Github": "https://github.com/kewbish/disparati"
     },
     {
-      "Title": "🕸️ Cobweb",
-      "Description": "An Ethereum-based Web Monetization Chrome extension enabling micro-payment streaming natively on the web. Won the <a href='https://docs.superfluid.finance/superfluid/resources/superfluid-wave-pool'>Superfluid.finance Wave Pool #5</a>.",
-      "Github": "https://github.com/kewbish/cobweb",
-      "Link": "https://kewbi.sh/cobweb"
-    },
-    {
       "Title": "🤝 PR-Issue Graph Topologies",
-      "Description": "A collection of Python visualization scripts and Neo4j queries facilitating quantitative and qualitative analysis of GitHub collaboration patterns. See the paper <a href='https://dl.acm.org/doi/10.1145/3660813'>here</a>",
-      "Github": "https://github.com/ubcdlab/pr-issue-topology-project"
+      "Description": "A collection of Python visualization scripts and Neo4j queries facilitating quantitative and qualitative analysis of GitHub collaboration patterns.",
+      "Github": "https://github.com/ubcdlab/pr-issue-topology-project",
+      "Link": "https://dl.acm.org/doi/10.1145/3660813"
     },
     {
-      "Title": "👨‍🏫 Knetwork",
-      "Description": "An offline-first educational system for remote communities, with infinite AI-generated problems and tests. Won the <a href='https://hack-the-change-2022.devpost.com/'>Hack The Change 2022 hackathon</a>.",
-      "Github": "https://github.com/KevinL10/Knetwork",
-      "Link": "https://devpost.com/software/knetwork"
-    },
-    {
-      "Title": "🪵 woodchip8",
-      "Description": "A Chip-8 emulator in Go. A toy project to learn Go and the <a href='https://github.com/hajimehoshi/ebiten'>Ebitengine game framework</a>.",
-      "Github": "https://github.com/kewbish/woodchip8"
-    },
-    {
-      "Title": "🔬 Primality Testing",
-      "Description": "Worked on an inquiry project on probabilistic primality testing and the analysis of a probabilistic AKS variant.",
-      "Github": "https://github.com/kewbish/srs",
-      "Link": "https://github.com/kewbish/srs/tree/master/Primality.pdf"
-    },
-    {
-      "Title": "📊 UMLie",
-      "Description": "A UML diagram generator built in Java. Parses file imports and association types (fields, aggregations, etc.) to create several types of diagrams.",
-      "Github": "https://github.com/kewbish/umlie"
-    },
-    {
-      "Title": "🌊 DiveIntoHT.ML",
-      "Description": "An interactive short course designed to teach the basics of web design. Accumulated ~400 registered users and receives ~1k monthly pageviews.",
-      "Github": "https://github.com/kewbish/sjap/",
-      "Link": "https://diveintoht.ml"
-    },
-    {
-      "Title": "⚛️  Matter",
-      "Description": "A minimalist RSS reader and bookmarking tool, built with vanilla JS and GitHub integrations. Meant as a personal replacement for clunky readers.",
-      "Github": "https://github.com/kewbish/matter/",
-      "Link": "https://kewbi.sh/matter/"
-    },
-    {
-      "Title": "💸 Revshare.js",
-      "Description": "A lightweight Javascript library to bring easy revenue-sharing capabilities to any site. Won the Grant For The Web Hackathon grand prize.",
-      "Github": "https://github.com/kewbish/revshare",
-      "Link": "https://kewbi.sh/revshare/"
-    },
-    {
-      "Title": "💵 Revshare for GitHub",
-      "Description": "A Chrome extension, bringing Web Monetization technologies to GitHub. Allows creators of any repo and its dependencies to receive revenue through the Web Monetization API.",
-      "Github": "https://github.com/kewbish/revshare-gh"
-    },
-    {
-      "Title": "🗽 Liberty",
-      "Description": "A Terminal User Interface built to bring the Leitner box space repetition technique to the terminal. Implements a text-based SRS system with open-ended question features.",
-      "Github": "https://github.com/kewbish/liberty",
-      "Link": "https://pypi.org/project/liberty-tui/"
-    },
-    {
-      "Title": "🎮 rack8",
-      "Description": "A Chip-8 emulator in Racket. A toy project for me to learn the basics of emulator development and Racket.",
-      "Github": "https://github.com/kewbish/rack8"
+      "Title": "🖋️ Yours, Kewbish",
+      "Description": "My personal blog. Features a collection of tech-related tutorials, articles, and personal stories.",
+      "Link": "https://kewbi.sh/blog"
     }
   ],
   "Talks": [

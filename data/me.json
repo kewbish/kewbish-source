@@ -1,13 +1,13 @@
 {
   "Education": {
     "Name": "UBC",
-    "Bio": "The <a href=\"ubc.ca\">University of British Columbia</a> is one of the world's leading science universities. There, I'm a gap-year senior pursuing an Honours Degree in Computer Science. (Honours denotes additional academic, research, and thesis requirements.)",
+    "Bio": "I completed my undergraduate degree in Honours Computer Science at the <a href=\"ubc.ca\">University of British Columbia</a>. (Honours denotes additional academic, research, and thesis requirements.)",
     "Activities": [
       {
-        "Text": "am one of the ten 2021 <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally."
+        "Text": "was one of the ten 2021 <a href='https://www.schulichleaders.com/'>Schulich Leader Scholarship</a> recipients at the school. The Schulich Leader Scholarships are Canada's most prestigious STEM scholarship, valued at between $80k-100k CAD. Selected from over 1500 nominees across Canada, 100 scholarships are awarded nationally. I am also grateful to have been awarded several other scholarships, notably for research excellence and leadership."
       },
       {
-        "Text": "am Co-Vice-President External at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>, connecting students with industry partners through workshops and career fair events. I previously served as Vice-President Academic and led the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
+        "Text": "was Co-Vice-President External at the UBC <a href='https://ubccsss.org/'>Computer Science Student Society</a>, connecting students with industry partners through workshops and career fair events. I previously served as Vice-President Academic and led the team of webmasters as well as a team of academic officers, working to improve digital and academic experiences for students."
       },
       {
         "Text": "took a gap year for the 2024-2025 academic year in order to do research internships abroad at the University of Cambridge and at Sorbonne Université."
@@ -16,6 +16,12 @@
     "Previously": "I attended the <a href='https://universitytransition.ca/'>University Transition Program</a> in Vancouver, a radically accelerated academic program preparing students for early entrance to UBC."
   },
   "Experience": [
+    {
+      "Position": "⚙ UBC Systopia",
+      "Date": "Sep. 2025 - Apr. 2026",
+      "Description": "Thesis research assistant under Professor [Ivan Beschastnikh](https://www.cs.ubc.ca/~bestchai/), in collaboration with [Qian Cheng](https://qian-cheng-nju.github.io/) at NJU and team. I was part of the [Specula](https://github.com/specula-org/Specula) team building an automated agent to generate formal specs and find bugs in production systems. I also worked on [SysMoBench](https://sysmobench.com/), a benchmark to evaluate frontier LLMs on their ability to generate useful formal specifications.",
+      "Tags": ["Research", "All"]
+    },
     {
       "Position": "🌸 OpenAI",
       "Date": "May - Aug. 2025",
